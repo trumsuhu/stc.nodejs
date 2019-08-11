@@ -1,0 +1,7600 @@
+
+
+module-ol
+|_
+  #.getUid
+  #.inherits
+
+module-ol_AssertionError
+|_
+
+module-ol_AssertionError-AssertionError
+|_
+  #code
+
+module-ol_Collection
+|_
+  #~Options
+
+module-ol_Collection.CollectionEvent
+|_
+  #element
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_Collection-Collection
+|_
+  #clear
+  #extend
+  #forEach
+  #get
+  #getArray
+  #getKeys
+  #getLength
+  #getProperties
+  #insertAt
+  #item
+  #pop
+  #push
+  #remove
+  #removeAt
+  #set
+  #setAt
+  #setProperties
+  #unset
+  #event:add
+  #event:change
+  #event:propertychange
+  #event:remove
+
+module-ol_Disposable
+|_
+
+module-ol_Disposable-Disposable
+|_
+
+module-ol_Feature
+|_
+  #~FeatureClass
+  #~FeatureLike
+
+module-ol_Feature-Feature
+|_
+  #clone
+  #get
+  #getGeometry
+  #getGeometryName
+  #getId
+  #getKeys
+  #getProperties
+  #getStyle
+  #getStyleFunction
+  #set
+  #setGeometry
+  #setGeometryName
+  #setId
+  #setProperties
+  #setStyle
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_Geolocation
+|_
+  #~Property
+  #~Options
+
+module-ol_Geolocation-Geolocation
+|_
+  #get
+  #getAccuracy
+  #getAccuracyGeometry
+  #getAltitude
+  #getAltitudeAccuracy
+  #getHeading
+  #getKeys
+  #getPosition
+  #getProjection
+  #getProperties
+  #getSpeed
+  #getTracking
+  #getTrackingOptions
+  #set
+  #setProjection
+  #setProperties
+  #setTracking
+  #setTrackingOptions
+  #unset
+  #event:change
+  #~event:error
+  #event:propertychange
+
+module-ol_Graticule
+|_
+  #~GraticuleLabelDataType
+  #~Options
+
+module-ol_Graticule-Graticule
+|_
+  #getMap
+  #getMeridians
+  #getParallels
+  #setMap
+
+module-ol_Image
+|_
+  #~LoadFunction
+
+module-ol_ImageBase
+|_
+
+module-ol_ImageBase-ImageBase
+|_
+  #dispatchEvent
+
+module-ol_ImageCanvas
+|_
+  #~Loader
+
+module-ol_ImageTile
+|_
+
+module-ol_ImageTile-ImageTile
+|_
+  #getImage
+  #getTileCoord
+  #load
+  #setState
+
+module-ol_Image-ImageWrapper
+|_
+  #getImage
+  #load
+
+module-ol_Kinetic
+|_
+
+module-ol_Kinetic-Kinetic
+|_
+
+module-ol_Map
+|_
+
+module-ol_MapBrowserEvent
+|_
+
+module-ol_MapBrowserEventHandler
+|_
+
+module-ol_MapBrowserEvent-MapBrowserEvent
+|_
+  #coordinate
+  #dragging
+  #frameState
+  #map
+  #originalEvent
+  #pixel
+  #preventDefault
+  #stopPropagation
+
+module-ol_MapBrowserPointerEvent
+|_
+
+module-ol_MapEvent
+|_
+
+module-ol_MapEvent-MapEvent
+|_
+  #frameState
+  #map
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_Map-Map
+|_
+  #addControl
+  #addInteraction
+  #addLayer
+  #addOverlay
+  #forEachFeatureAtPixel
+  #forEachLayerAtPixel
+  #getControls
+  #getCoordinateFromPixel
+  #getEventCoordinate
+  #getEventPixel
+  #getFeaturesAtPixel
+  #getInteractions
+  #getLayerGroup
+  #getLayers
+  #getOverlayById
+  #getOverlays
+  #getPixelFromCoordinate
+  #getSize
+  #getTarget
+  #getTargetElement
+  #getView
+  #getViewport
+  #hasFeatureAtPixel
+  #removeControl
+  #removeInteraction
+  #removeLayer
+  #removeOverlay
+  #render
+  #renderSync
+  #setLayerGroup
+  #setSize
+  #setTarget
+  #setView
+  #updateSize
+  #event:change
+  #event:click
+  #event:dblclick
+  #event:moveend
+  #event:movestart
+  #event:pointerdrag
+  #event:pointermove
+  #event:postcompose
+  #event:postrender
+  #event:precompose
+  #event:propertychange
+  #event:rendercomplete
+  #event:singleclick
+
+module-ol_Object
+|_
+
+module-ol_Object.ObjectEvent
+|_
+  #key
+  #oldValue
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_Object-BaseObject
+|_
+  #changed
+  #get
+  #getKeys
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_Observable
+|_
+  #.unByKey
+
+module-ol_Observable-Observable
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_Overlay
+|_
+  #~Property
+  #~Options
+  #~PanOptions
+
+module-ol_OverlayPositioning
+|_
+
+module-ol_OverlayPositioning
+|_
+
+module-ol_Overlay-Overlay
+|_
+  #changed
+  #get
+  #getElement
+  #getId
+  #getKeys
+  #getMap
+  #getOffset
+  #getPosition
+  #getPositioning
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setElement
+  #setMap
+  #setOffset
+  #setPosition
+  #setPositioning
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_PluggableMap
+|_
+  #~AtPixelOptions
+  #~FrameState
+  #~MapOptions
+  #~MapOptionsInternal
+  #~PostRenderFunction
+
+module-ol_PluggableMap-PluggableMap
+|_
+  #addControl
+  #addInteraction
+  #addLayer
+  #addOverlay
+  #changed
+  #forEachFeatureAtPixel
+  #forEachLayerAtPixel
+  #get
+  #getControls
+  #getCoordinateFromPixel
+  #getEventCoordinate
+  #getEventPixel
+  #getFeaturesAtPixel
+  #getInteractions
+  #getKeys
+  #getLayerGroup
+  #getLayers
+  #getOverlayById
+  #getOverlays
+  #getPixelFromCoordinate
+  #getProperties
+  #getRevision
+  #getSize
+  #getTarget
+  #getTargetElement
+  #getView
+  #getViewport
+  #hasFeatureAtPixel
+  #on
+  #once
+  #removeControl
+  #removeInteraction
+  #removeLayer
+  #removeOverlay
+  #render
+  #renderSync
+  #set
+  #setLayerGroup
+  #setProperties
+  #setSize
+  #setTarget
+  #setView
+  #un
+  #unset
+  #updateSize
+  #event:change
+  #event:click
+  #event:dblclick
+  #event:moveend
+  #event:movestart
+  #event:pointerdrag
+  #event:pointermove
+  #event:postcompose
+  #event:postrender
+  #event:precompose
+  #event:propertychange
+  #event:rendercomplete
+  #event:singleclick
+
+module-ol_Tile
+|_
+  #~LoadFunction
+  #~Options
+  #~UrlFunction
+
+module-ol_TileCache
+|_
+
+module-ol_TileQueue
+|_
+  #~PriorityFunction
+
+module-ol_TileRange
+|_
+
+module-ol_TileState
+|_
+
+module-ol_TileState
+|_
+
+module-ol_Tile-Tile
+|_
+  #dispatchEvent
+  #getTileCoord
+  #load
+  #setState
+
+module-ol_VectorImageTile
+|_
+  #~ReplayState
+
+module-ol_VectorTile
+|_
+
+module-ol_VectorTile-VectorTile
+|_
+  #dispatchEvent
+  #getExtent
+  #getFeatures
+  #getFormat
+  #getProjection
+  #getTileCoord
+  #load
+  #setExtent
+  #setFeatures
+  #setLoader
+  #setProjection
+  #setState
+
+module-ol_View
+|_
+  #~Animation
+  #~AnimationOptions
+  #~Constraints
+  #~FitOptions
+  #~State
+  #~ViewOptions
+
+module-ol_View-View
+|_
+  #animate
+  #calculateExtent
+  #cancelAnimations
+  #centerOn
+  #changed
+  #constrainCenter
+  #constrainResolution
+  #constrainRotation
+  #fit
+  #get
+  #getAnimating
+  #getCenter
+  #getInteracting
+  #getKeys
+  #getMaxResolution
+  #getMaxZoom
+  #getMinResolution
+  #getMinZoom
+  #getProjection
+  #getProperties
+  #getResolution
+  #getResolutionForExtent
+  #getResolutionForZoom
+  #getResolutions
+  #getRevision
+  #getRotation
+  #getZoom
+  #getZoomForResolution
+  #on
+  #once
+  #rotate
+  #set
+  #setCenter
+  #setMaxZoom
+  #setMinZoom
+  #setProperties
+  #setResolution
+  #setRotation
+  #setZoom
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_WebGLMap
+|_
+
+module-ol_WebGLMap-WebGLMap
+|_
+  #addControl
+  #addInteraction
+  #addLayer
+  #addOverlay
+  #changed
+  #forEachFeatureAtPixel
+  #forEachLayerAtPixel
+  #get
+  #getControls
+  #getCoordinateFromPixel
+  #getEventCoordinate
+  #getEventPixel
+  #getFeaturesAtPixel
+  #getInteractions
+  #getKeys
+  #getLayerGroup
+  #getLayers
+  #getOverlayById
+  #getOverlays
+  #getPixelFromCoordinate
+  #getProperties
+  #getRevision
+  #getSize
+  #getTarget
+  #getTargetElement
+  #getView
+  #getViewport
+  #hasFeatureAtPixel
+  #on
+  #once
+  #removeControl
+  #removeInteraction
+  #removeLayer
+  #removeOverlay
+  #render
+  #renderSync
+  #set
+  #setLayerGroup
+  #setProperties
+  #setSize
+  #setTarget
+  #setView
+  #un
+  #unset
+  #updateSize
+  #event:change
+  #event:click
+  #event:dblclick
+  #event:moveend
+  #event:movestart
+  #event:pointerdrag
+  #event:pointermove
+  #event:postcompose
+  #event:postrender
+  #event:precompose
+  #event:propertychange
+  #event:rendercomplete
+  #event:singleclick
+
+module-ol_array
+|_
+  #.stableSort
+
+module-ol_color
+|_
+  #~Color
+  #.asArray
+  #.asString
+
+module-ol_colorlike
+|_
+  #~ColorLike
+  #.asColorLike
+
+module-ol_control
+|_
+  #.defaults
+
+module-ol_control_Attribution
+|_
+  #~Options
+  #.render
+
+module-ol_control_Attribution-Attribution
+|_
+  #getCollapsed
+  #getCollapsible
+  #getMap
+  #setCollapsed
+  #setCollapsible
+  #setMap
+  #setTarget
+  #event:change
+  #event:propertychange
+
+module-ol_control_Control
+|_
+  #~Options
+
+module-ol_control_Control-Control
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_FullScreen
+|_
+  #~Options
+
+module-ol_control_FullScreen-FullScreen
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_MousePosition
+|_
+  #~Options
+  #.render
+
+module-ol_control_MousePosition-MousePosition
+|_
+  #changed
+  #get
+  #getCoordinateFormat
+  #getKeys
+  #getMap
+  #getProjection
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setCoordinateFormat
+  #setMap
+  #setProjection
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_OverviewMap
+|_
+  #~Options
+  #.render
+
+module-ol_control_OverviewMap-OverviewMap
+|_
+  #changed
+  #get
+  #getCollapsed
+  #getCollapsible
+  #getKeys
+  #getMap
+  #getOverviewMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setCollapsed
+  #setCollapsible
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_Rotate
+|_
+  #~Options
+  #.render
+
+module-ol_control_Rotate-Rotate
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_ScaleLine
+|_
+  #.Units
+  #~Options
+  #.render
+
+module-ol_control_ScaleLine-ScaleLine
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #getUnits
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #setUnits
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_Zoom
+|_
+  #~Options
+
+module-ol_control_ZoomSlider
+|_
+  #~Direction
+  #~Options
+  #.render
+
+module-ol_control_ZoomSlider-ZoomSlider
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_ZoomToExtent
+|_
+  #~Options
+
+module-ol_control_ZoomToExtent-ZoomToExtent
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_Zoom-Zoom
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_util
+|_
+  #~DefaultsOptions
+
+module-ol_coordinate
+|_
+  #~Coordinate
+  #~CoordinateFormat
+  #.add
+  #.createStringXY
+  #.format
+  #.rotate
+  #.toStringHDMS
+  #.toStringXY
+
+module-ol_easing
+|_
+  #.easeIn
+  #.easeOut
+  #.inAndOut
+  #.linear
+  #.upAndDown
+
+module-ol_events
+|_
+  #~EventsKey
+  #~ListenerFunction
+
+module-ol_events_Event
+|_
+
+module-ol_events_Event-Event
+|_
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_events_Target
+|_
+  #~EventTargetLike
+
+module-ol_events_Target-Target
+|_
+  #dispatchEvent
+
+module-ol_events_condition
+|_
+  #.altKeyOnly
+  #.altShiftKeysOnly
+  #.always
+  #.click
+  #.doubleClick
+  #.focus
+  #.mouseOnly
+  #.never
+  #.noModifierKeys
+  #.platformModifierKeyOnly
+  #.pointerMove
+  #.primaryAction
+  #.shiftKeyOnly
+  #.singleClick
+  #.targetNotEditable
+  #~Condition
+
+module-ol_extent
+|_
+  #~Extent
+  #.applyTransform
+  #.boundingExtent
+  #.buffer
+  #.containsCoordinate
+  #.containsExtent
+  #.containsXY
+  #.createEmpty
+  #.equals
+  #.extend
+  #.getArea
+  #.getBottomLeft
+  #.getBottomRight
+  #.getCenter
+  #.getHeight
+  #.getIntersection
+  #.getSize
+  #.getTopLeft
+  #.getTopRight
+  #.getWidth
+  #.intersects
+  #.isEmpty
+
+module-ol_featureloader
+|_
+  #~FeatureLoader
+  #~FeatureUrlFunction
+  #.xhr
+
+module-ol_format_EsriJSON
+|_
+  #~EsriJSONMultiPolygon
+  #~EsriJSONSpatialReferenceWkid
+  #~Options
+
+module-ol_format_EsriJSON-EsriJSON
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatureObject
+  #writeFeatures
+  #writeFeaturesObject
+  #writeGeometry
+  #writeGeometryObject
+
+module-ol_format_Feature
+|_
+  #~ReadOptions
+  #~WriteOptions
+
+module-ol_format_Feature-FeatureFormat
+|_
+
+module-ol_format_GML
+|_
+  #~GML
+
+module-ol_format_GML2
+|_
+
+module-ol_format_GML2-GML2
+|_
+
+module-ol_format_GML3
+|_
+
+module-ol_format_GML32
+|_
+
+module-ol_format_GML32-GML32
+|_
+  #writeFeatures
+  #writeFeaturesNode
+  #writeGeometryNode
+
+module-ol_format_GML3-GML3
+|_
+  #writeFeatures
+  #writeFeaturesNode
+  #writeGeometryNode
+
+module-ol_format_GMLBase
+|_
+  #~Options
+
+module-ol_format_GMLBase-GMLBase
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+
+module-ol_format_GPX
+|_
+  #~LayoutOptions
+  #~Options
+
+module-ol_format_GPX-GPX
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+  #writeFeaturesNode
+
+module-ol_format_GeoJSON
+|_
+  #~GeoJSONGeometryCollection
+  #~Options
+
+module-ol_format_GeoJSON-GeoJSON
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatureObject
+  #writeFeatures
+  #writeFeaturesObject
+  #writeGeometry
+  #writeGeometryObject
+
+module-ol_format_IGC
+|_
+  #~IGCZ
+  #~Options
+
+module-ol_format_IGC-IGC
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_JSONFeature
+|_
+
+module-ol_format_JSONFeature-JSONFeature
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_KML
+|_
+  #~GxTrackObject
+  #~Options
+  #~Vec2
+
+module-ol_format_KML-KML
+|_
+  #readFeature
+  #readFeatures
+  #readName
+  #readNetworkLinks
+  #readProjection
+  #readRegion
+  #readRegionFromNode
+  #writeFeatures
+  #writeFeaturesNode
+
+module-ol_format_MVT
+|_
+  #~Options
+
+module-ol_format_MVT-MVT
+|_
+  #getLastExtent
+  #readFeatures
+  #readProjection
+  #setLayers
+
+module-ol_format_OSMXML
+|_
+
+module-ol_format_OSMXML-OSMXML
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+
+module-ol_format_OWS
+|_
+
+module-ol_format_Polyline
+|_
+  #~Options
+  #.decodeDeltas
+  #.decodeFloats
+  #.encodeDeltas
+  #.encodeFloats
+
+module-ol_format_Polyline-Polyline
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_TextFeature
+|_
+
+module-ol_format_TextFeature-TextFeature
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_TopoJSON
+|_
+  #~Options
+  #~TopoJSONMultiPolygon
+
+module-ol_format_TopoJSON-TopoJSON
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_WFS
+|_
+  #~FeatureCollectionMetadata
+  #~Options
+  #~TransactionResponse
+  #~WriteGetFeatureOptions
+  #~WriteTransactionOptions
+  #.writeFilter
+
+module-ol_format_WFS-WFS
+|_
+  #readFeature
+  #readFeatureCollectionMetadata
+  #readFeatures
+  #readProjection
+  #readTransactionResponse
+  #writeFeatures
+  #writeGetFeature
+  #writeTransaction
+
+module-ol_format_WKT
+|_
+  #~GeometryConstructor
+  #~TokenType
+  #~Options
+  #~Token
+
+module-ol_format_WKT-WKT
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_WMSCapabilities
+|_
+
+module-ol_format_WMSCapabilities-WMSCapabilities
+|_
+  #read
+
+module-ol_format_WMSGetFeatureInfo
+|_
+  #~Options
+
+module-ol_format_WMSGetFeatureInfo-WMSGetFeatureInfo
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+
+module-ol_format_WMTSCapabilities
+|_
+
+module-ol_format_WMTSCapabilities-WMTSCapabilities
+|_
+  #read
+
+module-ol_format_XML
+|_
+
+module-ol_format_XMLFeature
+|_
+
+module-ol_format_XMLFeature-XMLFeature
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+
+module-ol_format_XML-XML
+|_
+  #read
+
+module-ol_format_filter
+|_
+  #.and
+  #.bbox
+  #.between
+  #.contains
+  #.during
+  #.equalTo
+  #.greaterThan
+  #.greaterThanOrEqualTo
+  #.intersects
+  #.isNull
+  #.lessThan
+  #.lessThanOrEqualTo
+  #.like
+  #.not
+  #.notEqualTo
+  #.or
+  #.within
+
+module-ol_format_filter_And
+|_
+
+module-ol_format_filter_Bbox
+|_
+
+module-ol_format_filter_Bbox-Bbox
+|_
+
+module-ol_format_filter_Comparison
+|_
+
+module-ol_format_filter_ComparisonBinary
+|_
+
+module-ol_format_filter_ComparisonBinary-ComparisonBinary
+|_
+
+module-ol_format_filter_Comparison-Comparison
+|_
+
+module-ol_format_filter_Contains
+|_
+
+module-ol_format_filter_Contains-Contains
+|_
+
+module-ol_format_filter_During
+|_
+
+module-ol_format_filter_During-During
+|_
+
+module-ol_format_filter_EqualTo
+|_
+
+module-ol_format_filter_EqualTo-EqualTo
+|_
+
+module-ol_format_filter_Filter
+|_
+
+module-ol_format_filter_Filter-Filter
+|_
+
+module-ol_format_filter_GreaterThan
+|_
+
+module-ol_format_filter_GreaterThanOrEqualTo
+|_
+
+module-ol_format_filter_GreaterThanOrEqualTo-GreaterThanOrEqualTo
+|_
+
+module-ol_format_filter_GreaterThan-GreaterThan
+|_
+
+module-ol_format_filter_Intersects
+|_
+
+module-ol_format_filter_Intersects-Intersects
+|_
+
+module-ol_format_filter_IsBetween
+|_
+
+module-ol_format_filter_IsBetween-IsBetween
+|_
+
+module-ol_format_filter_IsLike
+|_
+
+module-ol_format_filter_IsLike-IsLike
+|_
+
+module-ol_format_filter_IsNull
+|_
+
+module-ol_format_filter_IsNull-IsNull
+|_
+
+module-ol_format_filter_LessThan
+|_
+
+module-ol_format_filter_LessThanOrEqualTo
+|_
+
+module-ol_format_filter_LessThanOrEqualTo-LessThanOrEqualTo
+|_
+
+module-ol_format_filter_LessThan-LessThan
+|_
+
+module-ol_format_filter_LogicalNary
+|_
+
+module-ol_format_filter_LogicalNary-LogicalNary
+|_
+
+module-ol_format_filter_Not
+|_
+
+module-ol_format_filter_NotEqualTo
+|_
+
+module-ol_format_filter_NotEqualTo-NotEqualTo
+|_
+
+module-ol_format_filter_Not-Not
+|_
+
+module-ol_format_filter_Or
+|_
+
+module-ol_format_filter_Or-Or
+|_
+
+module-ol_format_filter_Spatial
+|_
+
+module-ol_format_filter_Spatial-Spatial
+|_
+
+module-ol_format_filter_Within
+|_
+
+module-ol_format_filter_Within-Within
+|_
+
+module-ol_geom_Circle
+|_
+
+module-ol_geom_Circle-Circle
+|_
+  #applyTransform
+  #clone
+  #getCenter
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getRadius
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCenter
+  #setCenterAndRadius
+  #setRadius
+  #transform
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_Geometry
+|_
+
+module-ol_geom_GeometryCollection
+|_
+
+module-ol_geom_GeometryCollection-GeometryCollection
+|_
+  #applyTransform
+  #changed
+  #clone
+  #get
+  #getClosestPoint
+  #getExtent
+  #getGeometries
+  #getKeys
+  #getProperties
+  #getRevision
+  #getType
+  #intersectsCoordinate
+  #intersectsExtent
+  #on
+  #once
+  #rotate
+  #scale
+  #set
+  #setGeometries
+  #setProperties
+  #simplify
+  #transform
+  #translate
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_geom_GeometryLayout
+|_
+
+module-ol_geom_GeometryLayout
+|_
+
+module-ol_geom_GeometryType
+|_
+
+module-ol_geom_GeometryType
+|_
+
+module-ol_geom_Geometry-Geometry
+|_
+  #changed
+  #get
+  #getClosestPoint
+  #getExtent
+  #getKeys
+  #getProperties
+  #getRevision
+  #intersectsCoordinate
+  #on
+  #once
+  #rotate
+  #scale
+  #set
+  #setProperties
+  #simplify
+  #transform
+  #translate
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_geom_LineString
+|_
+
+module-ol_geom_LineString-LineString
+|_
+  #appendCoordinate
+  #applyTransform
+  #clone
+  #forEachSegment
+  #getCoordinateAt
+  #getCoordinateAtM
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getLength
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_LinearRing
+|_
+
+module-ol_geom_LinearRing-LinearRing
+|_
+  #applyTransform
+  #clone
+  #getArea
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getType
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_MultiLineString
+|_
+
+module-ol_geom_MultiLineString-MultiLineString
+|_
+  #appendLineString
+  #applyTransform
+  #clone
+  #getCoordinateAtM
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getLineString
+  #getLineStrings
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_MultiPoint
+|_
+
+module-ol_geom_MultiPoint-MultiPoint
+|_
+  #appendPoint
+  #applyTransform
+  #clone
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getPoint
+  #getPoints
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_MultiPolygon
+|_
+
+module-ol_geom_MultiPolygon-MultiPolygon
+|_
+  #appendPolygon
+  #applyTransform
+  #clone
+  #getArea
+  #getCoordinates
+  #getFirstCoordinate
+  #getInteriorPoints
+  #getLastCoordinate
+  #getLayout
+  #getPolygon
+  #getPolygons
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_Point
+|_
+
+module-ol_geom_Point-Point
+|_
+  #applyTransform
+  #clone
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_Polygon
+|_
+  #.circular
+  #.fromCircle
+  #.fromExtent
+
+module-ol_geom_Polygon-Polygon
+|_
+  #appendLinearRing
+  #applyTransform
+  #clone
+  #getArea
+  #getCoordinates
+  #getFirstCoordinate
+  #getInteriorPoint
+  #getLastCoordinate
+  #getLayout
+  #getLinearRing
+  #getLinearRingCount
+  #getLinearRings
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_SimpleGeometry
+|_
+
+module-ol_geom_SimpleGeometry-SimpleGeometry
+|_
+  #applyTransform
+  #changed
+  #get
+  #getClosestPoint
+  #getExtent
+  #getFirstCoordinate
+  #getKeys
+  #getLastCoordinate
+  #getLayout
+  #getProperties
+  #getRevision
+  #intersectsCoordinate
+  #on
+  #once
+  #rotate
+  #scale
+  #set
+  #setProperties
+  #simplify
+  #transform
+  #translate
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_has
+|_
+  #.DEVICE_PIXEL_RATIO
+  #.GEOLOCATION
+  #.TOUCH
+
+module-ol_interaction
+|_
+  #~DefaultsOptions
+  #.defaults
+
+module-ol_interaction_DoubleClickZoom
+|_
+  #~Options
+
+module-ol_interaction_DoubleClickZoom-DoubleClickZoom
+|_
+  #getActive
+  #getMap
+  #handleEvent
+  #setActive
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragAndDrop
+|_
+  #~DragAndDropEventType
+  #~Options
+
+module-ol_interaction_DragAndDrop-DragAndDrop
+|_
+  #getActive
+  #getMap
+  #handleEvent
+  #setActive
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragAndDrop-DragAndDropEvent
+|_
+  #features
+  #file
+  #projection
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_DragBox
+|_
+  #~DragBoxEventType
+  #~EndCondition
+  #~Options
+
+module-ol_interaction_DragBox-DragBox
+|_
+  #getGeometry
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragBox-DragBoxEvent
+|_
+  #coordinate
+  #mapBrowserEvent
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_DragPan
+|_
+  #~Options
+
+module-ol_interaction_DragPan-DragPan
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragRotate
+|_
+  #~Options
+
+module-ol_interaction_DragRotateAndZoom
+|_
+  #~Options
+
+module-ol_interaction_DragRotateAndZoom-DragRotateAndZoom
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragRotate-DragRotate
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragZoom
+|_
+  #~Options
+
+module-ol_interaction_DragZoom-DragZoom
+|_
+  #getGeometry
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Draw
+|_
+  #~DrawEventType
+  #~Mode
+  #~GeometryFunction
+  #~LineCoordType
+  #~Options
+  #~PointCoordType
+  #~PolyCoordType
+  #~SketchCoordType
+  #.createBox
+  #.createRegularPolygon
+
+module-ol_interaction_Draw-Draw
+|_
+  #extend
+  #finishDrawing
+  #getOverlay
+  #handleEvent
+  #removeLastPoint
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Draw-DrawEvent
+|_
+  #feature
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Extent
+|_
+  #~ExtentEventType
+  #~Options
+
+module-ol_interaction_Extent-ExtentInteraction
+|_
+  #getExtent
+  #handleEvent
+  #setExtent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Extent-ExtentInteractionEvent
+|_
+  #extent
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Interaction
+|_
+  #~InteractionOptions
+
+module-ol_interaction_Interaction-Interaction
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_KeyboardPan
+|_
+  #~Options
+
+module-ol_interaction_KeyboardPan-KeyboardPan
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_KeyboardZoom
+|_
+  #~Options
+
+module-ol_interaction_KeyboardZoom-KeyboardZoom
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Modify
+|_
+  #~ModifyEventType
+  #~Options
+  #~SegmentData
+
+module-ol_interaction_Modify.ModifyEvent
+|_
+  #features
+  #mapBrowserEvent
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Modify-Modify
+|_
+  #getOverlay
+  #handleEvent
+  #removePoint
+  #setActive
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_MouseWheelZoom
+|_
+  #.Mode
+  #~Options
+
+module-ol_interaction_MouseWheelZoom-MouseWheelZoom
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setMouseAnchor
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_PinchRotate
+|_
+  #~Options
+
+module-ol_interaction_PinchRotate-PinchRotate
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_PinchZoom
+|_
+  #~Options
+
+module-ol_interaction_PinchZoom-PinchZoom
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Pointer
+|_
+  #~Options
+
+module-ol_interaction_Pointer-PointerInteraction
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Select
+|_
+  #~SelectEventType
+  #~FilterFunction
+  #~Options
+
+module-ol_interaction_Select-Select
+|_
+  #changed
+  #get
+  #getActive
+  #getFeatures
+  #getHitTolerance
+  #getKeys
+  #getLayer
+  #getMap
+  #getOverlay
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setHitTolerance
+  #setMap
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Select-SelectEvent
+|_
+  #deselected
+  #mapBrowserEvent
+  #selected
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Snap
+|_
+  #~Options
+  #~Result
+  #~SegmentData
+
+module-ol_interaction_Snap-Snap
+|_
+  #addFeature
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #removeFeature
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Translate
+|_
+  #~TranslateEventType
+  #~Options
+
+module-ol_interaction_Translate.TranslateEvent
+|_
+  #coordinate
+  #features
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Translate-Translate
+|_
+  #changed
+  #get
+  #getActive
+  #getHitTolerance
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setHitTolerance
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_layer_Base
+|_
+  #~Options
+
+module-ol_layer_Base-BaseLayer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getProperties
+  #getRevision
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setProperties
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_layer_Group
+|_
+  #~Options
+
+module-ol_layer_Group-LayerGroup
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getLayers
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getProperties
+  #getRevision
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setLayers
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setProperties
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_layer_Heatmap
+|_
+  #~Options
+
+module-ol_layer_Heatmap-Heatmap
+|_
+  #getBlur
+  #getGradient
+  #getRadius
+  #getSource
+  #getStyle
+  #getStyleFunction
+  #setBlur
+  #setGradient
+  #setRadius
+  #setStyle
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_layer_Image
+|_
+  #~Options
+
+module-ol_layer_Image-ImageLayer
+|_
+  #getSource
+  #setMap
+  #setSource
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_layer_Layer
+|_
+  #~Options
+  #~State
+
+module-ol_layer_Layer-Layer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getProperties
+  #getRevision
+  #getSource
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMap
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setProperties
+  #setSource
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:postcompose
+  #event:precompose
+  #event:render
+  #event:rendercomplete
+  #event:propertychange
+  #event:change
+
+module-ol_layer_Tile
+|_
+  #~Options
+
+module-ol_layer_Tile-TileLayer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getPreload
+  #getProperties
+  #getRevision
+  #getSource
+  #getUseInterimTilesOnError
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMap
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setPreload
+  #setProperties
+  #setSource
+  #setUseInterimTilesOnError
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_layer_Vector
+|_
+  #~Options
+
+module-ol_layer_VectorRenderType
+|_
+
+module-ol_layer_VectorRenderType
+|_
+
+module-ol_layer_VectorTile
+|_
+  #~Options
+
+module-ol_layer_VectorTileRenderType
+|_
+
+module-ol_layer_VectorTileRenderType
+|_
+
+module-ol_layer_VectorTile-VectorTileLayer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getPreload
+  #getProperties
+  #getRevision
+  #getSource
+  #getStyle
+  #getStyleFunction
+  #getUseInterimTilesOnError
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMap
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setPreload
+  #setProperties
+  #setSource
+  #setStyle
+  #setUseInterimTilesOnError
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_layer_Vector-VectorLayer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getProperties
+  #getRevision
+  #getSource
+  #getStyle
+  #getStyleFunction
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMap
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setProperties
+  #setSource
+  #setStyle
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_loadingstrategy
+|_
+  #.all
+  #.bbox
+  #.tile
+
+module-ol_pixel
+|_
+  #~Pixel
+
+module-ol_pointer_EventSource
+|_
+
+module-ol_pointer_MouseSource
+|_
+
+module-ol_pointer_MsSource
+|_
+
+module-ol_pointer_NativeSource
+|_
+
+module-ol_pointer_PointerEvent
+|_
+
+module-ol_pointer_PointerEventHandler
+|_
+
+module-ol_pointer_TouchSource
+|_
+
+module-ol_proj
+|_
+  #~ProjectionLike
+  #~TransformFunction
+  #.addCoordinateTransforms
+  #.addEquivalentProjections
+  #.addProjection
+  #.equivalent
+  #.fromLonLat
+  #.get
+  #.getPointResolution
+  #.getTransform
+  #.toLonLat
+  #.transform
+  #.transformExtent
+
+module-ol_proj_Projection
+|_
+  #~Options
+
+module-ol_proj_Projection-Projection
+|_
+  #getAxisOrientation
+  #getCode
+  #getExtent
+  #getMetersPerUnit
+  #getUnits
+  #getWorldExtent
+  #isGlobal
+  #setExtent
+  #setGetPointResolution
+  #setGlobal
+  #setWorldExtent
+
+module-ol_proj_Units
+|_
+  #.METERS_PER_UNIT
+  #~Units
+
+module-ol_proj_epsg3857
+|_
+
+module-ol_proj_epsg4326
+|_
+
+module-ol_proj_proj4
+|_
+  #.register
+
+module-ol_render
+|_
+  #~OrderFunction
+  #~State
+  #~ToContextOptions
+  #.toContext
+
+module-ol_render_Box
+|_
+
+module-ol_render_Event
+|_
+
+module-ol_render_Event-RenderEvent
+|_
+  #context
+  #frameState
+  #glContext
+  #target
+  #type
+  #vectorContext
+  #preventDefault
+  #stopPropagation
+
+module-ol_render_Feature
+|_
+
+module-ol_render_Feature-RenderFeature
+|_
+  #get
+  #getExtent
+  #getGeometry
+  #getId
+  #getProperties
+  #getType
+
+module-ol_render_ReplayGroup
+|_
+
+module-ol_render_VectorContext
+|_
+
+module-ol_render_VectorContext-VectorContext
+|_
+
+module-ol_render_canvas
+|_
+  #.labelCache
+  #~DeclutterGroup
+  #~FillState
+  #~FillStrokeState
+  #~StrokeState
+  #~TextState
+
+module-ol_render_canvas_ImageReplay
+|_
+
+module-ol_render_canvas_Immediate
+|_
+
+module-ol_render_canvas_Immediate-CanvasImmediateRenderer
+|_
+  #drawCircle
+  #drawFeature
+  #drawGeometry
+  #setStyle
+
+module-ol_render_canvas_LineStringReplay
+|_
+
+module-ol_render_canvas_PolygonReplay
+|_
+
+module-ol_render_canvas_Replay
+|_
+
+module-ol_render_canvas_ReplayGroup
+|_
+
+module-ol_render_canvas_TextReplay
+|_
+
+module-ol_render_webgl_CircleReplay
+|_
+
+module-ol_render_webgl_ImageReplay
+|_
+
+module-ol_render_webgl_Immediate
+|_
+
+module-ol_render_webgl_Immediate-WebGLImmediateRenderer
+|_
+  #drawFeature
+  #drawGeometry
+  #setStyle
+
+module-ol_render_webgl_LineStringReplay
+|_
+  #~Instruction
+
+module-ol_render_webgl_PolygonReplay
+|_
+  #~PolygonSegment
+  #~PolygonVertex
+
+module-ol_render_webgl_Replay
+|_
+
+module-ol_render_webgl_ReplayGroup
+|_
+
+module-ol_render_webgl_TextReplay
+|_
+  #~GlyphAtlas
+
+module-ol_render_webgl_TextureReplay
+|_
+
+module-ol_render_webgl_circlereplay_defaultshader_Locations
+|_
+
+module-ol_render_webgl_linestringreplay_defaultshader_Locations
+|_
+
+module-ol_render_webgl_polygonreplay_defaultshader_Locations
+|_
+
+module-ol_render_webgl_texturereplay_defaultshader_Locations
+|_
+
+module-ol_renderer_Layer
+|_
+
+module-ol_renderer_Layer-LayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_Map
+|_
+
+module-ol_renderer_Map-MapRenderer
+|_
+
+module-ol_renderer_canvas_ImageLayer
+|_
+
+module-ol_renderer_canvas_ImageLayer-CanvasImageLayerRenderer
+|_
+  #event:change
+
+module-ol_renderer_canvas_IntermediateCanvas
+|_
+
+module-ol_renderer_canvas_IntermediateCanvas-IntermediateCanvasRenderer
+|_
+  #event:change
+
+module-ol_renderer_canvas_Layer
+|_
+
+module-ol_renderer_canvas_Layer-CanvasLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_canvas_Map
+|_
+
+module-ol_renderer_canvas_Map-CanvasMapRenderer
+|_
+
+module-ol_renderer_canvas_TileLayer
+|_
+
+module-ol_renderer_canvas_TileLayer-CanvasTileLayerRenderer
+|_
+  #event:change
+
+module-ol_renderer_canvas_VectorLayer
+|_
+
+module-ol_renderer_canvas_VectorLayer-CanvasVectorLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_canvas_VectorTileLayer
+|_
+
+module-ol_renderer_canvas_VectorTileLayer-CanvasVectorTileLayerRenderer
+|_
+  #event:change
+
+module-ol_renderer_webgl_ImageLayer
+|_
+
+module-ol_renderer_webgl_ImageLayer-WebGLImageLayerRenderer
+|_
+  #event:change
+
+module-ol_renderer_webgl_Layer
+|_
+
+module-ol_renderer_webgl_Layer-WebGLLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_webgl_Map
+|_
+  #~TextureCacheEntry
+
+module-ol_renderer_webgl_Map-WebGLMapRenderer
+|_
+
+module-ol_renderer_webgl_TileLayer
+|_
+
+module-ol_renderer_webgl_TileLayer-WebGLTileLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_webgl_VectorLayer
+|_
+
+module-ol_renderer_webgl_VectorLayer-WebGLVectorLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_webgl_defaultmapshader_Locations
+|_
+
+module-ol_renderer_webgl_tilelayershader_Locations
+|_
+
+module-ol_reproj_Image
+|_
+  #~FunctionType
+
+module-ol_reproj_Tile
+|_
+  #~FunctionType
+
+module-ol_reproj_Triangulation
+|_
+  #~Triangle
+
+module-ol_size
+|_
+  #~Size
+  #.toSize
+
+module-ol_source_BingMaps
+|_
+  #~BingMapsImageryMetadataResponse
+  #~CoverageArea
+  #~ImageryProvider
+  #~Options
+  #~Resource
+  #~ResourceSet
+
+module-ol_source_BingMaps-BingMaps
+|_
+  #getApiKey
+  #getImagerySet
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_CartoDB
+|_
+  #~CartoDBLayerInfo
+  #~Options
+
+module-ol_source_CartoDB-CartoDB
+|_
+  #getConfig
+  #setConfig
+  #updateConfig
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Cluster
+|_
+  #~Options
+
+module-ol_source_Cluster-Cluster
+|_
+  #addFeature
+  #addFeatures
+  #clear
+  #forEachFeature
+  #forEachFeatureInExtent
+  #forEachFeatureIntersectingExtent
+  #getClosestFeatureToCoordinate
+  #getDistance
+  #getExtent
+  #getFeatureById
+  #getFeatures
+  #getFeaturesAtCoordinate
+  #getFeaturesCollection
+  #getFeaturesInExtent
+  #getFormat
+  #getSource
+  #getUrl
+  #hasFeature
+  #removeFeature
+  #removeLoadedExtent
+  #setDistance
+  #setLoader
+  #event:change
+  #event:propertychange
+
+module-ol_source_Image
+|_
+  #~ImageSourceEventType
+  #~Options
+
+module-ol_source_ImageArcGISRest
+|_
+  #~Options
+
+module-ol_source_ImageArcGISRest-ImageArcGISRest
+|_
+  #getImageLoadFunction
+  #getParams
+  #getProjection
+  #getState
+  #getUrl
+  #refresh
+  #setAttributions
+  #setImageLoadFunction
+  #setUrl
+  #updateParams
+  #event:change
+  #event:propertychange
+
+module-ol_source_ImageCanvas
+|_
+  #~FunctionType
+  #~Options
+
+module-ol_source_ImageCanvas-ImageCanvasSource
+|_
+  #getProjection
+  #getState
+  #refresh
+  #setAttributions
+  #event:change
+  #event:propertychange
+
+module-ol_source_ImageMapGuide
+|_
+  #~Options
+
+module-ol_source_ImageMapGuide-ImageMapGuide
+|_
+  #getImageLoadFunction
+  #getParams
+  #getProjection
+  #getState
+  #refresh
+  #setAttributions
+  #setImageLoadFunction
+  #updateParams
+  #event:change
+  #event:propertychange
+
+module-ol_source_ImageStatic
+|_
+  #~Options
+
+module-ol_source_ImageStatic-Static
+|_
+  #getImageExtent
+  #getProjection
+  #getState
+  #getUrl
+  #refresh
+  #setAttributions
+  #event:change
+  #event:propertychange
+
+module-ol_source_ImageWMS
+|_
+  #~Options
+
+module-ol_source_ImageWMS-ImageWMS
+|_
+  #getGetFeatureInfoUrl
+  #getImageLoadFunction
+  #getParams
+  #getProjection
+  #getState
+  #getUrl
+  #refresh
+  #setAttributions
+  #setImageLoadFunction
+  #setUrl
+  #updateParams
+  #event:change
+  #event:propertychange
+
+module-ol_source_Image-ImageSource
+|_
+  #getProjection
+  #getState
+  #refresh
+  #setAttributions
+  #event:change
+  #event:propertychange
+
+module-ol_source_Image-ImageSourceEvent
+|_
+  #image
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_source_OSM
+|_
+  #.ATTRIBUTION
+  #~Options
+
+module-ol_source_OSM-OSM
+|_
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Raster
+|_
+  #~RasterEventType
+  #~RasterOperationType
+  #~Operation
+  #~Options
+
+module-ol_source_Raster-RasterSource
+|_
+  #getProjection
+  #getState
+  #refresh
+  #setAttributions
+  #setOperation
+  #event:change
+  #event:propertychange
+
+module-ol_source_Raster-RasterSourceEvent
+|_
+  #data
+  #extent
+  #resolution
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_source_Source
+|_
+  #~Attribution
+  #~AttributionLike
+  #~Options
+
+module-ol_source_Source-Source
+|_
+  #changed
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_Stamen
+|_
+  #~Options
+
+module-ol_source_Stamen-Stamen
+|_
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_State
+|_
+
+module-ol_source_State
+|_
+
+module-ol_source_Tile
+|_
+  #~Options
+
+module-ol_source_Tile.TileSourceEvent
+|_
+  #target
+  #tile
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_source_TileArcGISRest
+|_
+  #~Options
+
+module-ol_source_TileArcGISRest-TileArcGISRest
+|_
+  #getParams
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #updateParams
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_TileDebug
+|_
+  #~Options
+
+module-ol_source_TileDebug-TileDebug
+|_
+  #changed
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTileGrid
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_TileImage
+|_
+  #~Options
+
+module-ol_source_TileImage-TileImage
+|_
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_TileJSON
+|_
+  #~Config
+  #~Options
+
+module-ol_source_TileJSON-TileJSON
+|_
+  #getTileJSON
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_TileWMS
+|_
+  #~Options
+
+module-ol_source_TileWMS-TileWMS
+|_
+  #getGetFeatureInfoUrl
+  #getParams
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #updateParams
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Tile-TileSource
+|_
+  #changed
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTileGrid
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_UTFGrid
+|_
+  #~Options
+  #~UTFGridJSON
+
+module-ol_source_UTFGrid-UTFGrid
+|_
+  #changed
+  #forDataAtCoordinateAndResolution
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTemplate
+  #getTileGrid
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_UrlTile
+|_
+  #~Options
+
+module-ol_source_UrlTile-UrlTile
+|_
+  #changed
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTileGrid
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #un
+  #unset
+  #event:tileloadstart
+  #event:tileloadend
+  #event:tileloaderror
+  #event:propertychange
+  #event:change
+
+module-ol_source_Vector
+|_
+  #~LoadingStrategy
+  #~Options
+
+module-ol_source_Vector.VectorSourceEvent
+|_
+  #feature
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_source_VectorTile
+|_
+  #~Options
+
+module-ol_source_VectorTile-VectorTile
+|_
+  #changed
+  #clear
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTileGrid
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Vector-VectorSource
+|_
+  #addFeature
+  #addFeatures
+  #changed
+  #clear
+  #forEachFeature
+  #forEachFeatureInExtent
+  #forEachFeatureIntersectingExtent
+  #get
+  #getClosestFeatureToCoordinate
+  #getExtent
+  #getFeatureById
+  #getFeatures
+  #getFeaturesAtCoordinate
+  #getFeaturesCollection
+  #getFeaturesInExtent
+  #getFormat
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getUrl
+  #hasFeature
+  #on
+  #once
+  #refresh
+  #removeFeature
+  #removeLoadedExtent
+  #set
+  #setAttributions
+  #setLoader
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_WMTS
+|_
+  #~Options
+  #.optionsFromCapabilities
+
+module-ol_source_WMTSRequestEncoding
+|_
+
+module-ol_source_WMTSRequestEncoding
+|_
+
+module-ol_source_WMTS-WMTS
+|_
+  #getDimensions
+  #getFormat
+  #getLayer
+  #getMatrixSet
+  #getRequestEncoding
+  #getStyle
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #getVersion
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #updateDimensions
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_XYZ
+|_
+  #~Options
+
+module-ol_source_XYZ-XYZ
+|_
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Zoomify
+|_
+  #~TierSizeCalculation
+  #~Options
+
+module-ol_source_Zoomify-Zoomify
+|_
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_sphere
+|_
+  #~SphereMetricOptions
+  #.getArea
+  #.getDistance
+  #.getLength
+
+module-ol_structs_LRUCache
+|_
+  #~Entry
+
+module-ol_structs_LRUCache-LRUCache
+|_
+  #dispatchEvent
+  #setSize
+  #event:change
+
+module-ol_structs_LinkedList
+|_
+  #~Item
+
+module-ol_structs_PriorityQueue
+|_
+
+module-ol_structs_RBush
+|_
+  #~Entry
+
+module-ol_style_Atlas
+|_
+  #~AtlasBlock
+  #~AtlasInfo
+
+module-ol_style_AtlasManager
+|_
+  #~AtlasManagerInfo
+  #~Options
+
+module-ol_style_AtlasManager-AtlasManager
+|_
+
+module-ol_style_Circle
+|_
+  #~Options
+
+module-ol_style_Circle-CircleStyle
+|_
+  #clone
+  #getAnchor
+  #getAngle
+  #getFill
+  #getImage
+  #getOrigin
+  #getPoints
+  #getRadius
+  #getRadius2
+  #getSize
+  #getStroke
+  #setRadius
+
+module-ol_style_Fill
+|_
+  #~Options
+
+module-ol_style_Fill-Fill
+|_
+  #clone
+  #getColor
+  #setColor
+
+module-ol_style_Icon
+|_
+  #~Options
+
+module-ol_style_IconImage
+|_
+
+module-ol_style_IconImageCache
+|_
+  #.shared
+
+module-ol_style_IconImageCache-IconImageCache
+|_
+  #setSize
+
+module-ol_style_Icon-Icon
+|_
+  #clone
+  #getAnchor
+  #getColor
+  #getImage
+  #getOpacity
+  #getOrigin
+  #getRotateWithView
+  #getRotation
+  #getScale
+  #getSize
+  #getSnapToPixel
+  #getSrc
+  #load
+  #setAnchor
+  #setOpacity
+  #setRotateWithView
+  #setRotation
+  #setScale
+  #setSnapToPixel
+
+module-ol_style_Image
+|_
+  #~Options
+
+module-ol_style_Image-ImageStyle
+|_
+  #clone
+  #getOpacity
+  #getRotateWithView
+  #getRotation
+  #getScale
+  #getSnapToPixel
+  #setOpacity
+  #setRotateWithView
+  #setRotation
+  #setScale
+  #setSnapToPixel
+
+module-ol_style_RegularShape
+|_
+  #~Options
+  #~RenderOptions
+
+module-ol_style_RegularShape-RegularShape
+|_
+  #clone
+  #getAnchor
+  #getAngle
+  #getFill
+  #getImage
+  #getOpacity
+  #getOrigin
+  #getPoints
+  #getRadius
+  #getRadius2
+  #getRotateWithView
+  #getRotation
+  #getScale
+  #getSize
+  #getSnapToPixel
+  #getStroke
+  #setOpacity
+  #setRotateWithView
+  #setRotation
+  #setScale
+  #setSnapToPixel
+
+module-ol_style_Stroke
+|_
+  #~Options
+
+module-ol_style_Stroke-Stroke
+|_
+  #clone
+  #getColor
+  #getLineCap
+  #getLineDash
+  #getLineDashOffset
+  #getLineJoin
+  #getMiterLimit
+  #getWidth
+  #setColor
+  #setLineCap
+  #setLineDash
+  #setLineDashOffset
+  #setLineJoin
+  #setMiterLimit
+  #setWidth
+
+module-ol_style_Style
+|_
+  #~GeometryFunction
+  #~Options
+  #~RenderFunction
+  #~StyleFunction
+  #~StyleLike
+
+module-ol_style_Style-Style
+|_
+  #clone
+  #getFill
+  #getGeometry
+  #getGeometryFunction
+  #getImage
+  #getRenderer
+  #getStroke
+  #getText
+  #getZIndex
+  #setFill
+  #setGeometry
+  #setImage
+  #setRenderer
+  #setStroke
+  #setText
+  #setZIndex
+
+module-ol_style_Text
+|_
+  #~Options
+
+module-ol_style_TextPlacement
+|_
+
+module-ol_style_TextPlacement
+|_
+
+module-ol_style_Text-Text
+|_
+  #clone
+  #getBackgroundFill
+  #getBackgroundStroke
+  #getFill
+  #getFont
+  #getMaxAngle
+  #getOffsetX
+  #getOffsetY
+  #getOverflow
+  #getPadding
+  #getPlacement
+  #getRotateWithView
+  #getRotation
+  #getScale
+  #getStroke
+  #getText
+  #getTextAlign
+  #getTextBaseline
+  #setBackgroundFill
+  #setBackgroundStroke
+  #setFill
+  #setFont
+  #setMaxAngle
+  #setOffsetX
+  #setOffsetY
+  #setOverflow
+  #setPadding
+  #setPlacement
+  #setRotation
+  #setScale
+  #setStroke
+  #setText
+  #setTextAlign
+  #setTextBaseline
+
+module-ol_tilecoord
+|_
+  #~TileCoord
+
+module-ol_tilegrid
+|_
+  #~XYZOptions
+  #.createXYZ
+
+module-ol_tilegrid_TileGrid
+|_
+  #~Options
+
+module-ol_tilegrid_TileGrid-TileGrid
+|_
+  #forEachTileCoord
+  #getMaxZoom
+  #getMinZoom
+  #getOrigin
+  #getResolution
+  #getResolutions
+  #getTileCoordExtent
+  #getTileCoordForCoordAndResolution
+  #getTileCoordForCoordAndZ
+  #getTileSize
+  #getZForResolution
+
+module-ol_tilegrid_WMTS
+|_
+  #~Options
+  #.createFromCapabilitiesMatrixSet
+
+module-ol_tilegrid_WMTS-WMTSTileGrid
+|_
+  #forEachTileCoord
+  #getMatrixIds
+  #getMaxZoom
+  #getMinZoom
+  #getOrigin
+  #getResolution
+  #getResolutions
+  #getTileCoordExtent
+  #getTileCoordForCoordAndResolution
+  #getTileCoordForCoordAndZ
+  #getTileSize
+  #getZForResolution
+
+module-ol_webgl
+|_
+  #~HAS
+
+module-ol_webgl_Buffer
+|_
+  #~BufferUsage
+
+module-ol_webgl_Context
+|_
+  #~BufferCacheEntry
+
+module-ol_webgl_Context-WebGLContext
+|_
+  #getGL
+  #useProgram
+
+module-ol_webgl_Fragment
+|_
+
+module-ol_webgl_Shader
+|_
+
+module-ol_webgl_Vertex
+|_
+
+module-ol_xml
+|_
+  #~NodeStackItem
+  #~Parser
+  #~Serializer
+  #.getAllTextContent
+  #.parse
+
+module-ol_Map-Map
+|_
+
+module-ol_layer_Base-BaseLayer
+|_
+
+module-ol_View-View
+|_
+
+module-ol_interaction_Interaction-Interaction
+|_
+
+module-ol_control_Control-Control
+|_
+
+module-ol_Map-Map
+|_
+  #Map
+
+module-ol_MapBrowserEvent-MapBrowserEvent
+|_
+
+module-ol_View-View
+|_
+
+module-ol_source_Source-Source
+|_
+
+module-ol_layer_Tile-TileLayer
+|_
+
+module-ol_layer_Image-ImageLayer
+|_
+
+module-ol_layer_Vector-VectorLayer
+|_
+
+module-ol_layer_VectorTile-VectorTileLayer
+|_
+  #.defaults
+
+module-ol_control_Control-Control
+|_
+  #~defaults
+
+module-ol_Feature-Feature
+|_
+
+module-ol_interaction_Select-Select
+|_
+
+module-ol_interaction_Draw-Draw
+|_
+
+module-ol_interaction_Modify-Modify
+|_
+
+module-ol_interaction_Interaction-Interaction
+|_
+
+module-ol_source_Tile-TileSource
+|_
+
+module-ol_layer_Tile-TileLayer
+|_
+
+module-ol_source_Image-ImageSource
+|_
+
+module-ol_layer_Image-ImageLayer
+|_
+
+module-ol_source_Vector-VectorSource
+|_
+
+module-ol_layer_Vector-VectorLayer
+|_
+
+module-ol_source_VectorTile-VectorTile
+|_
+
+module-ol_layer_VectorTile-VectorTileLayer
+|_
+
+module-ol_format_Feature-FeatureFormat
+|_
+
+module-ol_format_WMSCapabilities-WMSCapabilities
+|_
+  #.transform
+  #.transformExtent
+
+module-ol_proj
+|_
+
+module-ol_Object-BaseObject
+|_
+  #on
+
+module-ol_Object-ObjectEvent
+|_
+
+module-ol_Geolocation
+|_
+
+module-ol_Overlay-Overlay
+|_
+
+module-ol
+|_
+  #.getUid
+  #.inherits
+
+module-ol_AssertionError
+|_
+
+module-ol_AssertionError-AssertionError
+|_
+  #code
+
+module-ol_Collection
+|_
+  #~Options
+
+module-ol_Collection.CollectionEvent
+|_
+  #element
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_Collection-Collection
+|_
+  #clear
+  #extend
+  #forEach
+  #get
+  #getArray
+  #getKeys
+  #getLength
+  #getProperties
+  #insertAt
+  #item
+  #pop
+  #push
+  #remove
+  #removeAt
+  #set
+  #setAt
+  #setProperties
+  #unset
+  #event:add
+  #event:change
+  #event:propertychange
+  #event:remove
+
+module-ol_Disposable
+|_
+
+module-ol_Disposable-Disposable
+|_
+
+module-ol_Feature
+|_
+  #~FeatureClass
+  #~FeatureLike
+
+module-ol_Feature-Feature
+|_
+  #clone
+  #get
+  #getGeometry
+  #getGeometryName
+  #getId
+  #getKeys
+  #getProperties
+  #getStyle
+  #getStyleFunction
+  #set
+  #setGeometry
+  #setGeometryName
+  #setId
+  #setProperties
+  #setStyle
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_Geolocation
+|_
+  #~Property
+  #~Options
+
+module-ol_Geolocation-Geolocation
+|_
+  #get
+  #getAccuracy
+  #getAccuracyGeometry
+  #getAltitude
+  #getAltitudeAccuracy
+  #getHeading
+  #getKeys
+  #getPosition
+  #getProjection
+  #getProperties
+  #getSpeed
+  #getTracking
+  #getTrackingOptions
+  #set
+  #setProjection
+  #setProperties
+  #setTracking
+  #setTrackingOptions
+  #unset
+  #event:change
+  #~event:error
+  #event:propertychange
+
+module-ol_Graticule
+|_
+  #~GraticuleLabelDataType
+  #~Options
+
+module-ol_Graticule-Graticule
+|_
+  #getMap
+  #getMeridians
+  #getParallels
+  #setMap
+
+module-ol_Image
+|_
+  #~LoadFunction
+
+module-ol_ImageBase
+|_
+
+module-ol_ImageBase-ImageBase
+|_
+  #dispatchEvent
+
+module-ol_ImageCanvas
+|_
+  #~Loader
+
+module-ol_ImageTile
+|_
+
+module-ol_ImageTile-ImageTile
+|_
+  #getImage
+  #getTileCoord
+  #load
+  #setState
+
+module-ol_Image-ImageWrapper
+|_
+  #getImage
+  #load
+
+module-ol_Kinetic
+|_
+
+module-ol_Kinetic-Kinetic
+|_
+
+module-ol_Map
+|_
+
+module-ol_MapBrowserEvent
+|_
+
+module-ol_MapBrowserEventHandler
+|_
+
+module-ol_MapBrowserEvent-MapBrowserEvent
+|_
+  #coordinate
+  #dragging
+  #frameState
+  #map
+  #originalEvent
+  #pixel
+  #preventDefault
+  #stopPropagation
+
+module-ol_MapBrowserPointerEvent
+|_
+
+module-ol_MapEvent
+|_
+
+module-ol_MapEvent-MapEvent
+|_
+  #frameState
+  #map
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_Map-Map
+|_
+  #addControl
+  #addInteraction
+  #addLayer
+  #addOverlay
+  #forEachFeatureAtPixel
+  #forEachLayerAtPixel
+  #getControls
+  #getCoordinateFromPixel
+  #getEventCoordinate
+  #getEventPixel
+  #getFeaturesAtPixel
+  #getInteractions
+  #getLayerGroup
+  #getLayers
+  #getOverlayById
+  #getOverlays
+  #getPixelFromCoordinate
+  #getSize
+  #getTarget
+  #getTargetElement
+  #getView
+  #getViewport
+  #hasFeatureAtPixel
+  #removeControl
+  #removeInteraction
+  #removeLayer
+  #removeOverlay
+  #render
+  #renderSync
+  #setLayerGroup
+  #setSize
+  #setTarget
+  #setView
+  #updateSize
+  #event:change
+  #event:click
+  #event:dblclick
+  #event:moveend
+  #event:movestart
+  #event:pointerdrag
+  #event:pointermove
+  #event:postcompose
+  #event:postrender
+  #event:precompose
+  #event:propertychange
+  #event:rendercomplete
+  #event:singleclick
+
+module-ol_Object
+|_
+
+module-ol_Object.ObjectEvent
+|_
+  #key
+  #oldValue
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_Object-BaseObject
+|_
+  #changed
+  #get
+  #getKeys
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_Observable
+|_
+  #.unByKey
+
+module-ol_Observable-Observable
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_Overlay
+|_
+  #~Property
+  #~Options
+  #~PanOptions
+
+module-ol_OverlayPositioning
+|_
+
+module-ol_OverlayPositioning
+|_
+
+module-ol_Overlay-Overlay
+|_
+  #changed
+  #get
+  #getElement
+  #getId
+  #getKeys
+  #getMap
+  #getOffset
+  #getPosition
+  #getPositioning
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setElement
+  #setMap
+  #setOffset
+  #setPosition
+  #setPositioning
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_PluggableMap
+|_
+  #~AtPixelOptions
+  #~FrameState
+  #~MapOptions
+  #~MapOptionsInternal
+  #~PostRenderFunction
+
+module-ol_PluggableMap-PluggableMap
+|_
+  #addControl
+  #addInteraction
+  #addLayer
+  #addOverlay
+  #changed
+  #forEachFeatureAtPixel
+  #forEachLayerAtPixel
+  #get
+  #getControls
+  #getCoordinateFromPixel
+  #getEventCoordinate
+  #getEventPixel
+  #getFeaturesAtPixel
+  #getInteractions
+  #getKeys
+  #getLayerGroup
+  #getLayers
+  #getOverlayById
+  #getOverlays
+  #getPixelFromCoordinate
+  #getProperties
+  #getRevision
+  #getSize
+  #getTarget
+  #getTargetElement
+  #getView
+  #getViewport
+  #hasFeatureAtPixel
+  #on
+  #once
+  #removeControl
+  #removeInteraction
+  #removeLayer
+  #removeOverlay
+  #render
+  #renderSync
+  #set
+  #setLayerGroup
+  #setProperties
+  #setSize
+  #setTarget
+  #setView
+  #un
+  #unset
+  #updateSize
+  #event:change
+  #event:click
+  #event:dblclick
+  #event:moveend
+  #event:movestart
+  #event:pointerdrag
+  #event:pointermove
+  #event:postcompose
+  #event:postrender
+  #event:precompose
+  #event:propertychange
+  #event:rendercomplete
+  #event:singleclick
+
+module-ol_Tile
+|_
+  #~LoadFunction
+  #~Options
+  #~UrlFunction
+
+module-ol_TileCache
+|_
+
+module-ol_TileQueue
+|_
+  #~PriorityFunction
+
+module-ol_TileRange
+|_
+
+module-ol_TileState
+|_
+
+module-ol_TileState
+|_
+
+module-ol_Tile-Tile
+|_
+  #dispatchEvent
+  #getTileCoord
+  #load
+  #setState
+
+module-ol_VectorImageTile
+|_
+  #~ReplayState
+
+module-ol_VectorTile
+|_
+
+module-ol_VectorTile-VectorTile
+|_
+  #dispatchEvent
+  #getExtent
+  #getFeatures
+  #getFormat
+  #getProjection
+  #getTileCoord
+  #load
+  #setExtent
+  #setFeatures
+  #setLoader
+  #setProjection
+  #setState
+
+module-ol_View
+|_
+  #~Animation
+  #~AnimationOptions
+  #~Constraints
+  #~FitOptions
+  #~State
+  #~ViewOptions
+
+module-ol_View-View
+|_
+  #animate
+  #calculateExtent
+  #cancelAnimations
+  #centerOn
+  #changed
+  #constrainCenter
+  #constrainResolution
+  #constrainRotation
+  #fit
+  #get
+  #getAnimating
+  #getCenter
+  #getInteracting
+  #getKeys
+  #getMaxResolution
+  #getMaxZoom
+  #getMinResolution
+  #getMinZoom
+  #getProjection
+  #getProperties
+  #getResolution
+  #getResolutionForExtent
+  #getResolutionForZoom
+  #getResolutions
+  #getRevision
+  #getRotation
+  #getZoom
+  #getZoomForResolution
+  #on
+  #once
+  #rotate
+  #set
+  #setCenter
+  #setMaxZoom
+  #setMinZoom
+  #setProperties
+  #setResolution
+  #setRotation
+  #setZoom
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_WebGLMap
+|_
+
+module-ol_WebGLMap-WebGLMap
+|_
+  #addControl
+  #addInteraction
+  #addLayer
+  #addOverlay
+  #changed
+  #forEachFeatureAtPixel
+  #forEachLayerAtPixel
+  #get
+  #getControls
+  #getCoordinateFromPixel
+  #getEventCoordinate
+  #getEventPixel
+  #getFeaturesAtPixel
+  #getInteractions
+  #getKeys
+  #getLayerGroup
+  #getLayers
+  #getOverlayById
+  #getOverlays
+  #getPixelFromCoordinate
+  #getProperties
+  #getRevision
+  #getSize
+  #getTarget
+  #getTargetElement
+  #getView
+  #getViewport
+  #hasFeatureAtPixel
+  #on
+  #once
+  #removeControl
+  #removeInteraction
+  #removeLayer
+  #removeOverlay
+  #render
+  #renderSync
+  #set
+  #setLayerGroup
+  #setProperties
+  #setSize
+  #setTarget
+  #setView
+  #un
+  #unset
+  #updateSize
+  #event:change
+  #event:click
+  #event:dblclick
+  #event:moveend
+  #event:movestart
+  #event:pointerdrag
+  #event:pointermove
+  #event:postcompose
+  #event:postrender
+  #event:precompose
+  #event:propertychange
+  #event:rendercomplete
+  #event:singleclick
+
+module-ol_array
+|_
+  #.stableSort
+
+module-ol_color
+|_
+  #~Color
+  #.asArray
+  #.asString
+
+module-ol_colorlike
+|_
+  #~ColorLike
+  #.asColorLike
+
+module-ol_control
+|_
+  #.defaults
+
+module-ol_control_Attribution
+|_
+  #~Options
+  #.render
+
+module-ol_control_Attribution-Attribution
+|_
+  #getCollapsed
+  #getCollapsible
+  #getMap
+  #setCollapsed
+  #setCollapsible
+  #setMap
+  #setTarget
+  #event:change
+  #event:propertychange
+
+module-ol_control_Control
+|_
+  #~Options
+
+module-ol_control_Control-Control
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_FullScreen
+|_
+  #~Options
+
+module-ol_control_FullScreen-FullScreen
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_MousePosition
+|_
+  #~Options
+  #.render
+
+module-ol_control_MousePosition-MousePosition
+|_
+  #changed
+  #get
+  #getCoordinateFormat
+  #getKeys
+  #getMap
+  #getProjection
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setCoordinateFormat
+  #setMap
+  #setProjection
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_OverviewMap
+|_
+  #~Options
+  #.render
+
+module-ol_control_OverviewMap-OverviewMap
+|_
+  #changed
+  #get
+  #getCollapsed
+  #getCollapsible
+  #getKeys
+  #getMap
+  #getOverviewMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setCollapsed
+  #setCollapsible
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_Rotate
+|_
+  #~Options
+  #.render
+
+module-ol_control_Rotate-Rotate
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_ScaleLine
+|_
+  #.Units
+  #~Options
+  #.render
+
+module-ol_control_ScaleLine-ScaleLine
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #getUnits
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #setUnits
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_Zoom
+|_
+  #~Options
+
+module-ol_control_ZoomSlider
+|_
+  #~Direction
+  #~Options
+  #.render
+
+module-ol_control_ZoomSlider-ZoomSlider
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_ZoomToExtent
+|_
+  #~Options
+
+module-ol_control_ZoomToExtent-ZoomToExtent
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_Zoom-Zoom
+|_
+  #changed
+  #get
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #on
+  #once
+  #set
+  #setMap
+  #setProperties
+  #setTarget
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_control_util
+|_
+  #~DefaultsOptions
+
+module-ol_coordinate
+|_
+  #~Coordinate
+  #~CoordinateFormat
+  #.add
+  #.createStringXY
+  #.format
+  #.rotate
+  #.toStringHDMS
+  #.toStringXY
+
+module-ol_easing
+|_
+  #.easeIn
+  #.easeOut
+  #.inAndOut
+  #.linear
+  #.upAndDown
+
+module-ol_events
+|_
+  #~EventsKey
+  #~ListenerFunction
+
+module-ol_events_Event
+|_
+
+module-ol_events_Event-Event
+|_
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_events_Target
+|_
+  #~EventTargetLike
+
+module-ol_events_Target-Target
+|_
+  #dispatchEvent
+
+module-ol_events_condition
+|_
+  #.altKeyOnly
+  #.altShiftKeysOnly
+  #.always
+  #.click
+  #.doubleClick
+  #.focus
+  #.mouseOnly
+  #.never
+  #.noModifierKeys
+  #.platformModifierKeyOnly
+  #.pointerMove
+  #.primaryAction
+  #.shiftKeyOnly
+  #.singleClick
+  #.targetNotEditable
+  #~Condition
+
+module-ol_extent
+|_
+  #~Extent
+  #.applyTransform
+  #.boundingExtent
+  #.buffer
+  #.containsCoordinate
+  #.containsExtent
+  #.containsXY
+  #.createEmpty
+  #.equals
+  #.extend
+  #.getArea
+  #.getBottomLeft
+  #.getBottomRight
+  #.getCenter
+  #.getHeight
+  #.getIntersection
+  #.getSize
+  #.getTopLeft
+  #.getTopRight
+  #.getWidth
+  #.intersects
+  #.isEmpty
+
+module-ol_featureloader
+|_
+  #~FeatureLoader
+  #~FeatureUrlFunction
+  #.xhr
+
+module-ol_format_EsriJSON
+|_
+  #~EsriJSONMultiPolygon
+  #~EsriJSONSpatialReferenceWkid
+  #~Options
+
+module-ol_format_EsriJSON-EsriJSON
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatureObject
+  #writeFeatures
+  #writeFeaturesObject
+  #writeGeometry
+  #writeGeometryObject
+
+module-ol_format_Feature
+|_
+  #~ReadOptions
+  #~WriteOptions
+
+module-ol_format_Feature-FeatureFormat
+|_
+
+module-ol_format_GML
+|_
+  #~GML
+
+module-ol_format_GML2
+|_
+
+module-ol_format_GML2-GML2
+|_
+
+module-ol_format_GML3
+|_
+
+module-ol_format_GML32
+|_
+
+module-ol_format_GML32-GML32
+|_
+  #writeFeatures
+  #writeFeaturesNode
+  #writeGeometryNode
+
+module-ol_format_GML3-GML3
+|_
+  #writeFeatures
+  #writeFeaturesNode
+  #writeGeometryNode
+
+module-ol_format_GMLBase
+|_
+  #~Options
+
+module-ol_format_GMLBase-GMLBase
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+
+module-ol_format_GPX
+|_
+  #~LayoutOptions
+  #~Options
+
+module-ol_format_GPX-GPX
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+  #writeFeaturesNode
+
+module-ol_format_GeoJSON
+|_
+  #~GeoJSONGeometryCollection
+  #~Options
+
+module-ol_format_GeoJSON-GeoJSON
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatureObject
+  #writeFeatures
+  #writeFeaturesObject
+  #writeGeometry
+  #writeGeometryObject
+
+module-ol_format_IGC
+|_
+  #~IGCZ
+  #~Options
+
+module-ol_format_IGC-IGC
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_JSONFeature
+|_
+
+module-ol_format_JSONFeature-JSONFeature
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_KML
+|_
+  #~GxTrackObject
+  #~Options
+  #~Vec2
+
+module-ol_format_KML-KML
+|_
+  #readFeature
+  #readFeatures
+  #readName
+  #readNetworkLinks
+  #readProjection
+  #readRegion
+  #readRegionFromNode
+  #writeFeatures
+  #writeFeaturesNode
+
+module-ol_format_MVT
+|_
+  #~Options
+
+module-ol_format_MVT-MVT
+|_
+  #getLastExtent
+  #readFeatures
+  #readProjection
+  #setLayers
+
+module-ol_format_OSMXML
+|_
+
+module-ol_format_OSMXML-OSMXML
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+
+module-ol_format_OWS
+|_
+
+module-ol_format_Polyline
+|_
+  #~Options
+  #.decodeDeltas
+  #.decodeFloats
+  #.encodeDeltas
+  #.encodeFloats
+
+module-ol_format_Polyline-Polyline
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_TextFeature
+|_
+
+module-ol_format_TextFeature-TextFeature
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_TopoJSON
+|_
+  #~Options
+  #~TopoJSONMultiPolygon
+
+module-ol_format_TopoJSON-TopoJSON
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_WFS
+|_
+  #~FeatureCollectionMetadata
+  #~Options
+  #~TransactionResponse
+  #~WriteGetFeatureOptions
+  #~WriteTransactionOptions
+  #.writeFilter
+
+module-ol_format_WFS-WFS
+|_
+  #readFeature
+  #readFeatureCollectionMetadata
+  #readFeatures
+  #readProjection
+  #readTransactionResponse
+  #writeFeatures
+  #writeGetFeature
+  #writeTransaction
+
+module-ol_format_WKT
+|_
+  #~GeometryConstructor
+  #~TokenType
+  #~Options
+  #~Token
+
+module-ol_format_WKT-WKT
+|_
+  #readFeature
+  #readFeatures
+  #readGeometry
+  #readProjection
+  #writeFeature
+  #writeFeatures
+  #writeGeometry
+
+module-ol_format_WMSCapabilities
+|_
+
+module-ol_format_WMSCapabilities-WMSCapabilities
+|_
+  #read
+
+module-ol_format_WMSGetFeatureInfo
+|_
+  #~Options
+
+module-ol_format_WMSGetFeatureInfo-WMSGetFeatureInfo
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+
+module-ol_format_WMTSCapabilities
+|_
+
+module-ol_format_WMTSCapabilities-WMTSCapabilities
+|_
+  #read
+
+module-ol_format_XML
+|_
+
+module-ol_format_XMLFeature
+|_
+
+module-ol_format_XMLFeature-XMLFeature
+|_
+  #readFeature
+  #readFeatures
+  #readProjection
+  #writeFeatures
+
+module-ol_format_XML-XML
+|_
+  #read
+
+module-ol_format_filter
+|_
+  #.and
+  #.bbox
+  #.between
+  #.contains
+  #.during
+  #.equalTo
+  #.greaterThan
+  #.greaterThanOrEqualTo
+  #.intersects
+  #.isNull
+  #.lessThan
+  #.lessThanOrEqualTo
+  #.like
+  #.not
+  #.notEqualTo
+  #.or
+  #.within
+
+module-ol_format_filter_And
+|_
+
+module-ol_format_filter_Bbox
+|_
+
+module-ol_format_filter_Bbox-Bbox
+|_
+
+module-ol_format_filter_Comparison
+|_
+
+module-ol_format_filter_ComparisonBinary
+|_
+
+module-ol_format_filter_ComparisonBinary-ComparisonBinary
+|_
+
+module-ol_format_filter_Comparison-Comparison
+|_
+
+module-ol_format_filter_Contains
+|_
+
+module-ol_format_filter_Contains-Contains
+|_
+
+module-ol_format_filter_During
+|_
+
+module-ol_format_filter_During-During
+|_
+
+module-ol_format_filter_EqualTo
+|_
+
+module-ol_format_filter_EqualTo-EqualTo
+|_
+
+module-ol_format_filter_Filter
+|_
+
+module-ol_format_filter_Filter-Filter
+|_
+
+module-ol_format_filter_GreaterThan
+|_
+
+module-ol_format_filter_GreaterThanOrEqualTo
+|_
+
+module-ol_format_filter_GreaterThanOrEqualTo-GreaterThanOrEqualTo
+|_
+
+module-ol_format_filter_GreaterThan-GreaterThan
+|_
+
+module-ol_format_filter_Intersects
+|_
+
+module-ol_format_filter_Intersects-Intersects
+|_
+
+module-ol_format_filter_IsBetween
+|_
+
+module-ol_format_filter_IsBetween-IsBetween
+|_
+
+module-ol_format_filter_IsLike
+|_
+
+module-ol_format_filter_IsLike-IsLike
+|_
+
+module-ol_format_filter_IsNull
+|_
+
+module-ol_format_filter_IsNull-IsNull
+|_
+
+module-ol_format_filter_LessThan
+|_
+
+module-ol_format_filter_LessThanOrEqualTo
+|_
+
+module-ol_format_filter_LessThanOrEqualTo-LessThanOrEqualTo
+|_
+
+module-ol_format_filter_LessThan-LessThan
+|_
+
+module-ol_format_filter_LogicalNary
+|_
+
+module-ol_format_filter_LogicalNary-LogicalNary
+|_
+
+module-ol_format_filter_Not
+|_
+
+module-ol_format_filter_NotEqualTo
+|_
+
+module-ol_format_filter_NotEqualTo-NotEqualTo
+|_
+
+module-ol_format_filter_Not-Not
+|_
+
+module-ol_format_filter_Or
+|_
+
+module-ol_format_filter_Or-Or
+|_
+
+module-ol_format_filter_Spatial
+|_
+
+module-ol_format_filter_Spatial-Spatial
+|_
+
+module-ol_format_filter_Within
+|_
+
+module-ol_format_filter_Within-Within
+|_
+
+module-ol_geom_Circle
+|_
+
+module-ol_geom_Circle-Circle
+|_
+  #applyTransform
+  #clone
+  #getCenter
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getRadius
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCenter
+  #setCenterAndRadius
+  #setRadius
+  #transform
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_Geometry
+|_
+
+module-ol_geom_GeometryCollection
+|_
+
+module-ol_geom_GeometryCollection-GeometryCollection
+|_
+  #applyTransform
+  #changed
+  #clone
+  #get
+  #getClosestPoint
+  #getExtent
+  #getGeometries
+  #getKeys
+  #getProperties
+  #getRevision
+  #getType
+  #intersectsCoordinate
+  #intersectsExtent
+  #on
+  #once
+  #rotate
+  #scale
+  #set
+  #setGeometries
+  #setProperties
+  #simplify
+  #transform
+  #translate
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_geom_GeometryLayout
+|_
+
+module-ol_geom_GeometryLayout
+|_
+
+module-ol_geom_GeometryType
+|_
+
+module-ol_geom_GeometryType
+|_
+
+module-ol_geom_Geometry-Geometry
+|_
+  #changed
+  #get
+  #getClosestPoint
+  #getExtent
+  #getKeys
+  #getProperties
+  #getRevision
+  #intersectsCoordinate
+  #on
+  #once
+  #rotate
+  #scale
+  #set
+  #setProperties
+  #simplify
+  #transform
+  #translate
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_geom_LineString
+|_
+
+module-ol_geom_LineString-LineString
+|_
+  #appendCoordinate
+  #applyTransform
+  #clone
+  #forEachSegment
+  #getCoordinateAt
+  #getCoordinateAtM
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getLength
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_LinearRing
+|_
+
+module-ol_geom_LinearRing-LinearRing
+|_
+  #applyTransform
+  #clone
+  #getArea
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getType
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_MultiLineString
+|_
+
+module-ol_geom_MultiLineString-MultiLineString
+|_
+  #appendLineString
+  #applyTransform
+  #clone
+  #getCoordinateAtM
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getLineString
+  #getLineStrings
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_MultiPoint
+|_
+
+module-ol_geom_MultiPoint-MultiPoint
+|_
+  #appendPoint
+  #applyTransform
+  #clone
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getPoint
+  #getPoints
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_MultiPolygon
+|_
+
+module-ol_geom_MultiPolygon-MultiPolygon
+|_
+  #appendPolygon
+  #applyTransform
+  #clone
+  #getArea
+  #getCoordinates
+  #getFirstCoordinate
+  #getInteriorPoints
+  #getLastCoordinate
+  #getLayout
+  #getPolygon
+  #getPolygons
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_Point
+|_
+
+module-ol_geom_Point-Point
+|_
+  #applyTransform
+  #clone
+  #getCoordinates
+  #getFirstCoordinate
+  #getLastCoordinate
+  #getLayout
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_Polygon
+|_
+  #.circular
+  #.fromCircle
+  #.fromExtent
+
+module-ol_geom_Polygon-Polygon
+|_
+  #appendLinearRing
+  #applyTransform
+  #clone
+  #getArea
+  #getCoordinates
+  #getFirstCoordinate
+  #getInteriorPoint
+  #getLastCoordinate
+  #getLayout
+  #getLinearRing
+  #getLinearRingCount
+  #getLinearRings
+  #getType
+  #intersectsExtent
+  #rotate
+  #scale
+  #setCoordinates
+  #translate
+  #event:change
+  #event:propertychange
+
+module-ol_geom_SimpleGeometry
+|_
+
+module-ol_geom_SimpleGeometry-SimpleGeometry
+|_
+  #applyTransform
+  #changed
+  #get
+  #getClosestPoint
+  #getExtent
+  #getFirstCoordinate
+  #getKeys
+  #getLastCoordinate
+  #getLayout
+  #getProperties
+  #getRevision
+  #intersectsCoordinate
+  #on
+  #once
+  #rotate
+  #scale
+  #set
+  #setProperties
+  #simplify
+  #transform
+  #translate
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_has
+|_
+  #.DEVICE_PIXEL_RATIO
+  #.GEOLOCATION
+  #.TOUCH
+
+module-ol_interaction
+|_
+  #~DefaultsOptions
+  #.defaults
+
+module-ol_interaction_DoubleClickZoom
+|_
+  #~Options
+
+module-ol_interaction_DoubleClickZoom-DoubleClickZoom
+|_
+  #getActive
+  #getMap
+  #handleEvent
+  #setActive
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragAndDrop
+|_
+  #~DragAndDropEventType
+  #~Options
+
+module-ol_interaction_DragAndDrop-DragAndDrop
+|_
+  #getActive
+  #getMap
+  #handleEvent
+  #setActive
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragAndDrop-DragAndDropEvent
+|_
+  #features
+  #file
+  #projection
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_DragBox
+|_
+  #~DragBoxEventType
+  #~EndCondition
+  #~Options
+
+module-ol_interaction_DragBox-DragBox
+|_
+  #getGeometry
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragBox-DragBoxEvent
+|_
+  #coordinate
+  #mapBrowserEvent
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_DragPan
+|_
+  #~Options
+
+module-ol_interaction_DragPan-DragPan
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragRotate
+|_
+  #~Options
+
+module-ol_interaction_DragRotateAndZoom
+|_
+  #~Options
+
+module-ol_interaction_DragRotateAndZoom-DragRotateAndZoom
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragRotate-DragRotate
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_DragZoom
+|_
+  #~Options
+
+module-ol_interaction_DragZoom-DragZoom
+|_
+  #getGeometry
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Draw
+|_
+  #~DrawEventType
+  #~Mode
+  #~GeometryFunction
+  #~LineCoordType
+  #~Options
+  #~PointCoordType
+  #~PolyCoordType
+  #~SketchCoordType
+  #.createBox
+  #.createRegularPolygon
+
+module-ol_interaction_Draw-Draw
+|_
+  #extend
+  #finishDrawing
+  #getOverlay
+  #handleEvent
+  #removeLastPoint
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Draw-DrawEvent
+|_
+  #feature
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Extent
+|_
+  #~ExtentEventType
+  #~Options
+
+module-ol_interaction_Extent-ExtentInteraction
+|_
+  #getExtent
+  #handleEvent
+  #setExtent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Extent-ExtentInteractionEvent
+|_
+  #extent
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Interaction
+|_
+  #~InteractionOptions
+
+module-ol_interaction_Interaction-Interaction
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_KeyboardPan
+|_
+  #~Options
+
+module-ol_interaction_KeyboardPan-KeyboardPan
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_KeyboardZoom
+|_
+  #~Options
+
+module-ol_interaction_KeyboardZoom-KeyboardZoom
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Modify
+|_
+  #~ModifyEventType
+  #~Options
+  #~SegmentData
+
+module-ol_interaction_Modify.ModifyEvent
+|_
+  #features
+  #mapBrowserEvent
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Modify-Modify
+|_
+  #getOverlay
+  #handleEvent
+  #removePoint
+  #setActive
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_MouseWheelZoom
+|_
+  #.Mode
+  #~Options
+
+module-ol_interaction_MouseWheelZoom-MouseWheelZoom
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setMouseAnchor
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_PinchRotate
+|_
+  #~Options
+
+module-ol_interaction_PinchRotate-PinchRotate
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_PinchZoom
+|_
+  #~Options
+
+module-ol_interaction_PinchZoom-PinchZoom
+|_
+  #handleEvent
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Pointer
+|_
+  #~Options
+
+module-ol_interaction_Pointer-PointerInteraction
+|_
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Select
+|_
+  #~SelectEventType
+  #~FilterFunction
+  #~Options
+
+module-ol_interaction_Select-Select
+|_
+  #changed
+  #get
+  #getActive
+  #getFeatures
+  #getHitTolerance
+  #getKeys
+  #getLayer
+  #getMap
+  #getOverlay
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setHitTolerance
+  #setMap
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Select-SelectEvent
+|_
+  #deselected
+  #mapBrowserEvent
+  #selected
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Snap
+|_
+  #~Options
+  #~Result
+  #~SegmentData
+
+module-ol_interaction_Snap-Snap
+|_
+  #addFeature
+  #changed
+  #get
+  #getActive
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #removeFeature
+  #set
+  #setActive
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_interaction_Translate
+|_
+  #~TranslateEventType
+  #~Options
+
+module-ol_interaction_Translate.TranslateEvent
+|_
+  #coordinate
+  #features
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_interaction_Translate-Translate
+|_
+  #changed
+  #get
+  #getActive
+  #getHitTolerance
+  #getKeys
+  #getMap
+  #getProperties
+  #getRevision
+  #handleEvent
+  #on
+  #once
+  #set
+  #setActive
+  #setHitTolerance
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_layer_Base
+|_
+  #~Options
+
+module-ol_layer_Base-BaseLayer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getProperties
+  #getRevision
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setProperties
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_layer_Group
+|_
+  #~Options
+
+module-ol_layer_Group-LayerGroup
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getLayers
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getProperties
+  #getRevision
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setLayers
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setProperties
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_layer_Heatmap
+|_
+  #~Options
+
+module-ol_layer_Heatmap-Heatmap
+|_
+  #getBlur
+  #getGradient
+  #getRadius
+  #getSource
+  #getStyle
+  #getStyleFunction
+  #setBlur
+  #setGradient
+  #setRadius
+  #setStyle
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_layer_Image
+|_
+  #~Options
+
+module-ol_layer_Image-ImageLayer
+|_
+  #getSource
+  #setMap
+  #setSource
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_layer_Layer
+|_
+  #~Options
+  #~State
+
+module-ol_layer_Layer-Layer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getProperties
+  #getRevision
+  #getSource
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMap
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setProperties
+  #setSource
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:postcompose
+  #event:precompose
+  #event:render
+  #event:rendercomplete
+  #event:propertychange
+  #event:change
+
+module-ol_layer_Tile
+|_
+  #~Options
+
+module-ol_layer_Tile-TileLayer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getPreload
+  #getProperties
+  #getRevision
+  #getSource
+  #getUseInterimTilesOnError
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMap
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setPreload
+  #setProperties
+  #setSource
+  #setUseInterimTilesOnError
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_layer_Vector
+|_
+  #~Options
+
+module-ol_layer_VectorRenderType
+|_
+
+module-ol_layer_VectorRenderType
+|_
+
+module-ol_layer_VectorTile
+|_
+  #~Options
+
+module-ol_layer_VectorTileRenderType
+|_
+
+module-ol_layer_VectorTileRenderType
+|_
+
+module-ol_layer_VectorTile-VectorTileLayer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getPreload
+  #getProperties
+  #getRevision
+  #getSource
+  #getStyle
+  #getStyleFunction
+  #getUseInterimTilesOnError
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMap
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setPreload
+  #setProperties
+  #setSource
+  #setStyle
+  #setUseInterimTilesOnError
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_layer_Vector-VectorLayer
+|_
+  #changed
+  #get
+  #getExtent
+  #getKeys
+  #getMaxResolution
+  #getMinResolution
+  #getOpacity
+  #getProperties
+  #getRevision
+  #getSource
+  #getStyle
+  #getStyleFunction
+  #getVisible
+  #getZIndex
+  #on
+  #once
+  #set
+  #setExtent
+  #setMap
+  #setMaxResolution
+  #setMinResolution
+  #setOpacity
+  #setProperties
+  #setSource
+  #setStyle
+  #setVisible
+  #setZIndex
+  #un
+  #unset
+  #event:change
+  #event:postcompose
+  #event:precompose
+  #event:propertychange
+  #event:render
+  #event:rendercomplete
+
+module-ol_loadingstrategy
+|_
+  #.all
+  #.bbox
+  #.tile
+
+module-ol_pixel
+|_
+  #~Pixel
+
+module-ol_pointer_EventSource
+|_
+
+module-ol_pointer_MouseSource
+|_
+
+module-ol_pointer_MsSource
+|_
+
+module-ol_pointer_NativeSource
+|_
+
+module-ol_pointer_PointerEvent
+|_
+
+module-ol_pointer_PointerEventHandler
+|_
+
+module-ol_pointer_TouchSource
+|_
+
+module-ol_proj
+|_
+  #~ProjectionLike
+  #~TransformFunction
+  #.addCoordinateTransforms
+  #.addEquivalentProjections
+  #.addProjection
+  #.equivalent
+  #.fromLonLat
+  #.get
+  #.getPointResolution
+  #.getTransform
+  #.toLonLat
+  #.transform
+  #.transformExtent
+
+module-ol_proj_Projection
+|_
+  #~Options
+
+module-ol_proj_Projection-Projection
+|_
+  #getAxisOrientation
+  #getCode
+  #getExtent
+  #getMetersPerUnit
+  #getUnits
+  #getWorldExtent
+  #isGlobal
+  #setExtent
+  #setGetPointResolution
+  #setGlobal
+  #setWorldExtent
+
+module-ol_proj_Units
+|_
+  #.METERS_PER_UNIT
+  #~Units
+
+module-ol_proj_epsg3857
+|_
+
+module-ol_proj_epsg4326
+|_
+
+module-ol_proj_proj4
+|_
+  #.register
+
+module-ol_render
+|_
+  #~OrderFunction
+  #~State
+  #~ToContextOptions
+  #.toContext
+
+module-ol_render_Box
+|_
+
+module-ol_render_Event
+|_
+
+module-ol_render_Event-RenderEvent
+|_
+  #context
+  #frameState
+  #glContext
+  #target
+  #type
+  #vectorContext
+  #preventDefault
+  #stopPropagation
+
+module-ol_render_Feature
+|_
+
+module-ol_render_Feature-RenderFeature
+|_
+  #get
+  #getExtent
+  #getGeometry
+  #getId
+  #getProperties
+  #getType
+
+module-ol_render_ReplayGroup
+|_
+
+module-ol_render_VectorContext
+|_
+
+module-ol_render_VectorContext-VectorContext
+|_
+
+module-ol_render_canvas
+|_
+  #.labelCache
+  #~DeclutterGroup
+  #~FillState
+  #~FillStrokeState
+  #~StrokeState
+  #~TextState
+
+module-ol_render_canvas_ImageReplay
+|_
+
+module-ol_render_canvas_Immediate
+|_
+
+module-ol_render_canvas_Immediate-CanvasImmediateRenderer
+|_
+  #drawCircle
+  #drawFeature
+  #drawGeometry
+  #setStyle
+
+module-ol_render_canvas_LineStringReplay
+|_
+
+module-ol_render_canvas_PolygonReplay
+|_
+
+module-ol_render_canvas_Replay
+|_
+
+module-ol_render_canvas_ReplayGroup
+|_
+
+module-ol_render_canvas_TextReplay
+|_
+
+module-ol_render_webgl_CircleReplay
+|_
+
+module-ol_render_webgl_ImageReplay
+|_
+
+module-ol_render_webgl_Immediate
+|_
+
+module-ol_render_webgl_Immediate-WebGLImmediateRenderer
+|_
+  #drawFeature
+  #drawGeometry
+  #setStyle
+
+module-ol_render_webgl_LineStringReplay
+|_
+  #~Instruction
+
+module-ol_render_webgl_PolygonReplay
+|_
+  #~PolygonSegment
+  #~PolygonVertex
+
+module-ol_render_webgl_Replay
+|_
+
+module-ol_render_webgl_ReplayGroup
+|_
+
+module-ol_render_webgl_TextReplay
+|_
+  #~GlyphAtlas
+
+module-ol_render_webgl_TextureReplay
+|_
+
+module-ol_render_webgl_circlereplay_defaultshader_Locations
+|_
+
+module-ol_render_webgl_linestringreplay_defaultshader_Locations
+|_
+
+module-ol_render_webgl_polygonreplay_defaultshader_Locations
+|_
+
+module-ol_render_webgl_texturereplay_defaultshader_Locations
+|_
+
+module-ol_renderer_Layer
+|_
+
+module-ol_renderer_Layer-LayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_Map
+|_
+
+module-ol_renderer_Map-MapRenderer
+|_
+
+module-ol_renderer_canvas_ImageLayer
+|_
+
+module-ol_renderer_canvas_ImageLayer-CanvasImageLayerRenderer
+|_
+  #event:change
+
+module-ol_renderer_canvas_IntermediateCanvas
+|_
+
+module-ol_renderer_canvas_IntermediateCanvas-IntermediateCanvasRenderer
+|_
+  #event:change
+
+module-ol_renderer_canvas_Layer
+|_
+
+module-ol_renderer_canvas_Layer-CanvasLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_canvas_Map
+|_
+
+module-ol_renderer_canvas_Map-CanvasMapRenderer
+|_
+
+module-ol_renderer_canvas_TileLayer
+|_
+
+module-ol_renderer_canvas_TileLayer-CanvasTileLayerRenderer
+|_
+  #event:change
+
+module-ol_renderer_canvas_VectorLayer
+|_
+
+module-ol_renderer_canvas_VectorLayer-CanvasVectorLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_canvas_VectorTileLayer
+|_
+
+module-ol_renderer_canvas_VectorTileLayer-CanvasVectorTileLayerRenderer
+|_
+  #event:change
+
+module-ol_renderer_webgl_ImageLayer
+|_
+
+module-ol_renderer_webgl_ImageLayer-WebGLImageLayerRenderer
+|_
+  #event:change
+
+module-ol_renderer_webgl_Layer
+|_
+
+module-ol_renderer_webgl_Layer-WebGLLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_webgl_Map
+|_
+  #~TextureCacheEntry
+
+module-ol_renderer_webgl_Map-WebGLMapRenderer
+|_
+
+module-ol_renderer_webgl_TileLayer
+|_
+
+module-ol_renderer_webgl_TileLayer-WebGLTileLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_webgl_VectorLayer
+|_
+
+module-ol_renderer_webgl_VectorLayer-WebGLVectorLayerRenderer
+|_
+  #changed
+  #dispatchEvent
+  #getRevision
+  #on
+  #once
+  #un
+  #event:change
+
+module-ol_renderer_webgl_defaultmapshader_Locations
+|_
+
+module-ol_renderer_webgl_tilelayershader_Locations
+|_
+
+module-ol_reproj_Image
+|_
+  #~FunctionType
+
+module-ol_reproj_Tile
+|_
+  #~FunctionType
+
+module-ol_reproj_Triangulation
+|_
+  #~Triangle
+
+module-ol_size
+|_
+  #~Size
+  #.toSize
+
+module-ol_source_BingMaps
+|_
+  #~BingMapsImageryMetadataResponse
+  #~CoverageArea
+  #~ImageryProvider
+  #~Options
+  #~Resource
+  #~ResourceSet
+
+module-ol_source_BingMaps-BingMaps
+|_
+  #getApiKey
+  #getImagerySet
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_CartoDB
+|_
+  #~CartoDBLayerInfo
+  #~Options
+
+module-ol_source_CartoDB-CartoDB
+|_
+  #getConfig
+  #setConfig
+  #updateConfig
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Cluster
+|_
+  #~Options
+
+module-ol_source_Cluster-Cluster
+|_
+  #addFeature
+  #addFeatures
+  #clear
+  #forEachFeature
+  #forEachFeatureInExtent
+  #forEachFeatureIntersectingExtent
+  #getClosestFeatureToCoordinate
+  #getDistance
+  #getExtent
+  #getFeatureById
+  #getFeatures
+  #getFeaturesAtCoordinate
+  #getFeaturesCollection
+  #getFeaturesInExtent
+  #getFormat
+  #getSource
+  #getUrl
+  #hasFeature
+  #removeFeature
+  #removeLoadedExtent
+  #setDistance
+  #setLoader
+  #event:change
+  #event:propertychange
+
+module-ol_source_Image
+|_
+  #~ImageSourceEventType
+  #~Options
+
+module-ol_source_ImageArcGISRest
+|_
+  #~Options
+
+module-ol_source_ImageArcGISRest-ImageArcGISRest
+|_
+  #getImageLoadFunction
+  #getParams
+  #getProjection
+  #getState
+  #getUrl
+  #refresh
+  #setAttributions
+  #setImageLoadFunction
+  #setUrl
+  #updateParams
+  #event:change
+  #event:propertychange
+
+module-ol_source_ImageCanvas
+|_
+  #~FunctionType
+  #~Options
+
+module-ol_source_ImageCanvas-ImageCanvasSource
+|_
+  #getProjection
+  #getState
+  #refresh
+  #setAttributions
+  #event:change
+  #event:propertychange
+
+module-ol_source_ImageMapGuide
+|_
+  #~Options
+
+module-ol_source_ImageMapGuide-ImageMapGuide
+|_
+  #getImageLoadFunction
+  #getParams
+  #getProjection
+  #getState
+  #refresh
+  #setAttributions
+  #setImageLoadFunction
+  #updateParams
+  #event:change
+  #event:propertychange
+
+module-ol_source_ImageStatic
+|_
+  #~Options
+
+module-ol_source_ImageStatic-Static
+|_
+  #getImageExtent
+  #getProjection
+  #getState
+  #getUrl
+  #refresh
+  #setAttributions
+  #event:change
+  #event:propertychange
+
+module-ol_source_ImageWMS
+|_
+  #~Options
+
+module-ol_source_ImageWMS-ImageWMS
+|_
+  #getGetFeatureInfoUrl
+  #getImageLoadFunction
+  #getParams
+  #getProjection
+  #getState
+  #getUrl
+  #refresh
+  #setAttributions
+  #setImageLoadFunction
+  #setUrl
+  #updateParams
+  #event:change
+  #event:propertychange
+
+module-ol_source_Image-ImageSource
+|_
+  #getProjection
+  #getState
+  #refresh
+  #setAttributions
+  #event:change
+  #event:propertychange
+
+module-ol_source_Image-ImageSourceEvent
+|_
+  #image
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_source_OSM
+|_
+  #.ATTRIBUTION
+  #~Options
+
+module-ol_source_OSM-OSM
+|_
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Raster
+|_
+  #~RasterEventType
+  #~RasterOperationType
+  #~Operation
+  #~Options
+
+module-ol_source_Raster-RasterSource
+|_
+  #getProjection
+  #getState
+  #refresh
+  #setAttributions
+  #setOperation
+  #event:change
+  #event:propertychange
+
+module-ol_source_Raster-RasterSourceEvent
+|_
+  #data
+  #extent
+  #resolution
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_source_Source
+|_
+  #~Attribution
+  #~AttributionLike
+  #~Options
+
+module-ol_source_Source-Source
+|_
+  #changed
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_Stamen
+|_
+  #~Options
+
+module-ol_source_Stamen-Stamen
+|_
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_State
+|_
+
+module-ol_source_State
+|_
+
+module-ol_source_Tile
+|_
+  #~Options
+
+module-ol_source_Tile.TileSourceEvent
+|_
+  #target
+  #tile
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_source_TileArcGISRest
+|_
+  #~Options
+
+module-ol_source_TileArcGISRest-TileArcGISRest
+|_
+  #getParams
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #updateParams
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_TileDebug
+|_
+  #~Options
+
+module-ol_source_TileDebug-TileDebug
+|_
+  #changed
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTileGrid
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_TileImage
+|_
+  #~Options
+
+module-ol_source_TileImage-TileImage
+|_
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_TileJSON
+|_
+  #~Config
+  #~Options
+
+module-ol_source_TileJSON-TileJSON
+|_
+  #getTileJSON
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_TileWMS
+|_
+  #~Options
+
+module-ol_source_TileWMS-TileWMS
+|_
+  #getGetFeatureInfoUrl
+  #getParams
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #updateParams
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Tile-TileSource
+|_
+  #changed
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTileGrid
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_UTFGrid
+|_
+  #~Options
+  #~UTFGridJSON
+
+module-ol_source_UTFGrid-UTFGrid
+|_
+  #changed
+  #forDataAtCoordinateAndResolution
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTemplate
+  #getTileGrid
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_UrlTile
+|_
+  #~Options
+
+module-ol_source_UrlTile-UrlTile
+|_
+  #changed
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTileGrid
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #un
+  #unset
+  #event:tileloadstart
+  #event:tileloadend
+  #event:tileloaderror
+  #event:propertychange
+  #event:change
+
+module-ol_source_Vector
+|_
+  #~LoadingStrategy
+  #~Options
+
+module-ol_source_Vector.VectorSourceEvent
+|_
+  #feature
+  #target
+  #type
+  #preventDefault
+  #stopPropagation
+
+module-ol_source_VectorTile
+|_
+  #~Options
+
+module-ol_source_VectorTile-VectorTile
+|_
+  #changed
+  #clear
+  #get
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getTileGrid
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #on
+  #once
+  #refresh
+  #set
+  #setAttributions
+  #setProperties
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Vector-VectorSource
+|_
+  #addFeature
+  #addFeatures
+  #changed
+  #clear
+  #forEachFeature
+  #forEachFeatureInExtent
+  #forEachFeatureIntersectingExtent
+  #get
+  #getClosestFeatureToCoordinate
+  #getExtent
+  #getFeatureById
+  #getFeatures
+  #getFeaturesAtCoordinate
+  #getFeaturesCollection
+  #getFeaturesInExtent
+  #getFormat
+  #getKeys
+  #getProjection
+  #getProperties
+  #getRevision
+  #getState
+  #getUrl
+  #hasFeature
+  #on
+  #once
+  #refresh
+  #removeFeature
+  #removeLoadedExtent
+  #set
+  #setAttributions
+  #setLoader
+  #setProperties
+  #un
+  #unset
+  #event:change
+  #event:propertychange
+
+module-ol_source_WMTS
+|_
+  #~Options
+  #.optionsFromCapabilities
+
+module-ol_source_WMTSRequestEncoding
+|_
+
+module-ol_source_WMTSRequestEncoding
+|_
+
+module-ol_source_WMTS-WMTS
+|_
+  #getDimensions
+  #getFormat
+  #getLayer
+  #getMatrixSet
+  #getRequestEncoding
+  #getStyle
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #getVersion
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #updateDimensions
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_XYZ
+|_
+  #~Options
+
+module-ol_source_XYZ-XYZ
+|_
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_source_Zoomify
+|_
+  #~TierSizeCalculation
+  #~Options
+
+module-ol_source_Zoomify-Zoomify
+|_
+  #getTileLoadFunction
+  #getTileUrlFunction
+  #getUrls
+  #setRenderReprojectionEdges
+  #setTileGridForProjection
+  #setTileLoadFunction
+  #setTileUrlFunction
+  #setUrl
+  #setUrls
+  #event:change
+  #event:propertychange
+  #event:tileloadend
+  #event:tileloaderror
+  #event:tileloadstart
+
+module-ol_sphere
+|_
+  #~SphereMetricOptions
+  #.getArea
+  #.getDistance
+  #.getLength
+
+module-ol_structs_LRUCache
+|_
+  #~Entry
+
+module-ol_structs_LRUCache-LRUCache
+|_
+  #dispatchEvent
+  #setSize
+  #event:change
+
+module-ol_structs_LinkedList
+|_
+  #~Item
+
+module-ol_structs_PriorityQueue
+|_
+
+module-ol_structs_RBush
+|_
+  #~Entry
+
+module-ol_style_Atlas
+|_
+  #~AtlasBlock
+  #~AtlasInfo
+
+module-ol_style_AtlasManager
+|_
+  #~AtlasManagerInfo
+  #~Options
+
+module-ol_style_AtlasManager-AtlasManager
+|_
+
+module-ol_style_Circle
+|_
+  #~Options
+
+module-ol_style_Circle-CircleStyle
+|_
+  #clone
+  #getAnchor
+  #getAngle
+  #getFill
+  #getImage
+  #getOrigin
+  #getPoints
+  #getRadius
+  #getRadius2
+  #getSize
+  #getStroke
+  #setRadius
+
+module-ol_style_Fill
+|_
+  #~Options
+
+module-ol_style_Fill-Fill
+|_
+  #clone
+  #getColor
+  #setColor
+
+module-ol_style_Icon
+|_
+  #~Options
+
+module-ol_style_IconImage
+|_
+
+module-ol_style_IconImageCache
+|_
+  #.shared
+
+module-ol_style_IconImageCache-IconImageCache
+|_
+  #setSize
+
+module-ol_style_Icon-Icon
+|_
+  #clone
+  #getAnchor
+  #getColor
+  #getImage
+  #getOpacity
+  #getOrigin
+  #getRotateWithView
+  #getRotation
+  #getScale
+  #getSize
+  #getSnapToPixel
+  #getSrc
+  #load
+  #setAnchor
+  #setOpacity
+  #setRotateWithView
+  #setRotation
+  #setScale
+  #setSnapToPixel
+
+module-ol_style_Image
+|_
+  #~Options
+
+module-ol_style_Image-ImageStyle
+|_
+  #clone
+  #getOpacity
+  #getRotateWithView
+  #getRotation
+  #getScale
+  #getSnapToPixel
+  #setOpacity
+  #setRotateWithView
+  #setRotation
+  #setScale
+  #setSnapToPixel
+
+module-ol_style_RegularShape
+|_
+  #~Options
+  #~RenderOptions
+
+module-ol_style_RegularShape-RegularShape
+|_
+  #clone
+  #getAnchor
+  #getAngle
+  #getFill
+  #getImage
+  #getOpacity
+  #getOrigin
+  #getPoints
+  #getRadius
+  #getRadius2
+  #getRotateWithView
+  #getRotation
+  #getScale
+  #getSize
+  #getSnapToPixel
+  #getStroke
+  #setOpacity
+  #setRotateWithView
+  #setRotation
+  #setScale
+  #setSnapToPixel
+
+module-ol_style_Stroke
+|_
+  #~Options
+
+module-ol_style_Stroke-Stroke
+|_
+  #clone
+  #getColor
+  #getLineCap
+  #getLineDash
+  #getLineDashOffset
+  #getLineJoin
+  #getMiterLimit
+  #getWidth
+  #setColor
+  #setLineCap
+  #setLineDash
+  #setLineDashOffset
+  #setLineJoin
+  #setMiterLimit
+  #setWidth
+
+module-ol_style_Style
+|_
+  #~GeometryFunction
+  #~Options
+  #~RenderFunction
+  #~StyleFunction
+  #~StyleLike
+
+module-ol_style_Style-Style
+|_
+  #clone
+  #getFill
+  #getGeometry
+  #getGeometryFunction
+  #getImage
+  #getRenderer
+  #getStroke
+  #getText
+  #getZIndex
+  #setFill
+  #setGeometry
+  #setImage
+  #setRenderer
+  #setStroke
+  #setText
+  #setZIndex
+
+module-ol_style_Text
+|_
+  #~Options
+
+module-ol_style_TextPlacement
+|_
+
+module-ol_style_TextPlacement
+|_
+
+module-ol_style_Text-Text
+|_
+  #clone
+  #getBackgroundFill
+  #getBackgroundStroke
+  #getFill
+  #getFont
+  #getMaxAngle
+  #getOffsetX
+  #getOffsetY
+  #getOverflow
+  #getPadding
+  #getPlacement
+  #getRotateWithView
+  #getRotation
+  #getScale
+  #getStroke
+  #getText
+  #getTextAlign
+  #getTextBaseline
+  #setBackgroundFill
+  #setBackgroundStroke
+  #setFill
+  #setFont
+  #setMaxAngle
+  #setOffsetX
+  #setOffsetY
+  #setOverflow
+  #setPadding
+  #setPlacement
+  #setRotation
+  #setScale
+  #setStroke
+  #setText
+  #setTextAlign
+  #setTextBaseline
+
+module-ol_tilecoord
+|_
+  #~TileCoord
+
+module-ol_tilegrid
+|_
+  #~XYZOptions
+  #.createXYZ
+
+module-ol_tilegrid_TileGrid
+|_
+  #~Options
+
+module-ol_tilegrid_TileGrid-TileGrid
+|_
+  #forEachTileCoord
+  #getMaxZoom
+  #getMinZoom
+  #getOrigin
+  #getResolution
+  #getResolutions
+  #getTileCoordExtent
+  #getTileCoordForCoordAndResolution
+  #getTileCoordForCoordAndZ
+  #getTileSize
+  #getZForResolution
+
+module-ol_tilegrid_WMTS
+|_
+  #~Options
+  #.createFromCapabilitiesMatrixSet
+
+module-ol_tilegrid_WMTS-WMTSTileGrid
+|_
+  #forEachTileCoord
+  #getMatrixIds
+  #getMaxZoom
+  #getMinZoom
+  #getOrigin
+  #getResolution
+  #getResolutions
+  #getTileCoordExtent
+  #getTileCoordForCoordAndResolution
+  #getTileCoordForCoordAndZ
+  #getTileSize
+  #getZForResolution
+
+module-ol_webgl
+|_
+  #~HAS
+
+module-ol_webgl_Buffer
+|_
+  #~BufferUsage
+
+module-ol_webgl_Context
+|_
+  #~BufferCacheEntry
+
+module-ol_webgl_Context-WebGLContext
+|_
+  #getGL
+  #useProgram
+
+module-ol_webgl_Fragment
+|_
+
+module-ol_webgl_Shader
+|_
+
+module-ol_webgl_Vertex
+|_
+
+module-ol_xml
+|_
+  #~NodeStackItem
+  #~Parser
+  #~Serializer
+  #.getAllTextContent
+  #.parse
+
+module-ol_Overlay
+|_
+
+module-ol_Overlay
+|_
+
+module-ol_control_Control-Control
+|_
+  #getOverlayById
+  #~Coordinate
+
+module-ol_OverlayPositioning
+|_
+  #event:change
+
+module-ol_events_Event-Event
+|_
+
+module-ol_Object.ObjectEvent
+|_
+
+module-ol_Object.ObjectEvent
+|_
+
+module-ol_Object.ObjectEvent
+|_
+
+module-ol_Object.ObjectEvent
+|_
+
+module-ol_Object.ObjectEvent
+|_
+  #event:propertychange
+
+module-ol_Object.ObjectEvent
+|_
+
+module-ol_Object-BaseObject
+|_
+
+module-ol_Object-ObjectEvent
+|_
+
+module-ol_PluggableMap-PluggableMap
+|_
+  #~Coordinate
+
+module-ol_OverlayPositioning
+|_
+  #changed
+  #get
+  #getKeys
+
+module-ol_PluggableMap-PluggableMap
+|_
+  #~Coordinate
+
+module-ol_OverlayPositioning
+|_
+  #getProperties
+  #getRevision
+  #~EventsKey
+  #~EventsKey
+  #on
+  #~EventsKey
+  #~EventsKey
+  #once
+  #set
+
+module-ol_PluggableMap-PluggableMap
+|_
+  #~Coordinate
+
+module-ol_OverlayPositioning
+|_
+  #setProperties
+  #un
+  #unset
